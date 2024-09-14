@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Scrimblo.png">
+<SubTexture name="Idle0000" x="453" y="0" width="260" height="394" frameX="-167" frameY="-111" frameWidth="640" frameHeight="640" />
+<SubTexture name="Idle0001" x="0" y="787" width="260" height="373" frameX="-165" frameY="-131" frameWidth="640" frameHeight="640" />
+<SubTexture name="Idle0002" x="197" y="396" width="257" height="380" frameX="-167" frameY="-127" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUP0000" x="532" y="787" width="269" height="322" frameX="-161" frameY="-185" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUP0001" x="260" y="787" width="272" height="325" frameX="-164" frameY="-181" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFT0000" x="454" y="396" width="263" height="380" frameX="-153" frameY="-126" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFT0001" x="961" y="0" width="256" height="378" frameX="-146" frameY="-127" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWN0000" x="247" y="0" width="206" height="395" frameX="-219" frameY="-112" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWN0001" x="0" y="396" width="197" height="391" frameX="-228" frameY="-118" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHT0000" x="713" y="0" width="248" height="393" frameX="-203" frameY="-113" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHT0001" x="0" y="0" width="247" height="396" frameX="-211" frameY="-108" frameWidth="640" frameHeight="640" />
+</TextureAtlas>

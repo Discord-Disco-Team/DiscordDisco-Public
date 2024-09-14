@@ -1,0 +1,49 @@
+{
+	"storyName": "funkin' in #chad-chat",
+	"difficulties": "Basic",
+	"hideFreeplay": true,
+	"weekBackground": "Dweek1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Stainless",
+			"ironed",
+			[
+				0,
+				100,
+				135
+			]
+		],
+		[
+			"Lets-A Go",
+			"luigifan",
+			[
+				100,
+				60,
+				195
+			]
+		],
+		[
+			"Cracker",
+			"corn",
+			[
+				120,
+				120,
+				195
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Disco"
+}

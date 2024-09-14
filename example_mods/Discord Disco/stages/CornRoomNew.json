@@ -1,0 +1,15 @@
+{
+	"directory": "chrisroom",
+	"defaultZoom": 0.85,
+	"isPixelStage": false,
+
+	"boyfriend": [940, 100],
+	"girlfriend": [1200, 130],
+	"opponent": [200, 100]
+
+	"camera_boyfriend": [-20, -20],
+	"camera_opponent": [20, 20],
+	"camera_girlfriend": [-60, -20],
+	"camera_speed": 0.5
+
+}

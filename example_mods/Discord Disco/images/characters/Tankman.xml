@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tankman.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="singUP0000" x="1307" y="350" width="192" height="407" frameX="-210" frameY="-207" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singUP0001" x="1078" y="363" width="217" height="339" frameX="-199" frameY="-274" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singLEFT0000" x="0" y="0" width="403" height="405" frameX="-83" frameY="-230" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singLEFT0001" x="0" y="405" width="367" height="406" frameX="-120" frameY="-233" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singRIGHT0000" x="403" y="0" width="340" height="384" frameX="-174" frameY="-234" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singRIGHT0001" x="403" y="384" width="328" height="364" frameX="-174" frameY="-254" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singDOWN0000" x="0" y="811" width="351" height="265" frameX="-132" frameY="-355" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="singDOWN0001" x="743" y="0" width="335" height="282" frameX="-141" frameY="-336" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0000" x="743" y="282" width="242" height="351" frameX="-179" frameY="-260" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="1307" y="0" width="233" height="350" frameX="-183" frameY="-261" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0002" x="1078" y="0" width="229" height="363" frameX="-184" frameY="-248" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

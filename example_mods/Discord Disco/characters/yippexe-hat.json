@@ -1,0 +1,101 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-4,
+				-9
+			],
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-2,
+				-4
+			],
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-3,
+				-1
+			],
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"indices": [
+				1,
+				1,
+				2,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-3,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": true,
+			"name": "right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yippexe-hat",
+	"position": [
+		-140,
+		250
+	],
+	"healthicon": "Yipexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,106 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				1,
+				1,
+				2,
+				0,
+				0
+			],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-3,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [
+				-3,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"name": "singUP"
+		},
+		{
+			"offsets": [
+				-4,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"name": "singDOWN"
+		},
+		{
+			"offsets": [
+				-2,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				1,
+				1,
+				0,
+				0
+			],
+			"name": "singLEFT"
+		}
+	],
+	"vocals_file": "Scrim",
+	"no_antialiasing": false,
+	"image": "characters/Scrimblo",
+	"position": [
+		-140,
+		250
+	],
+	"healthicon": "Scramblo",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

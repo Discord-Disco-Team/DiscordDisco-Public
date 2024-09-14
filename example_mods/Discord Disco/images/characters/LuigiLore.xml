@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LuigiLore.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle 10000" x="0" y="0" width="385" height="127" frameX="-89" frameY="-275" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="idle 10001" x="385" y="0" width="385" height="207" frameX="-89" frameY="-195" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="idle 10002" x="770" y="0" width="385" height="276" frameX="-89" frameY="-127" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="idle 10003" x="1155" y="0" width="385" height="324" frameX="-89" frameY="-79" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="idle 10004" x="1540" y="0" width="385" height="360" frameX="-89" frameY="-43" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="down 10005" x="0" y="360" width="357" height="90" frameX="-103" frameY="-315" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="down 10006" x="357" y="360" width="308" height="178" frameX="-128" frameY="-229" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="down 10007" x="665" y="360" width="277" height="312" frameX="-143" frameY="-94" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="up 10008" x="942" y="360" width="195" height="406" frameX="-174" frameY="0" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="up 10009" x="1137" y="360" width="254" height="321" frameX="-144" frameY="-85" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="up 10010" x="1391" y="360" width="299" height="268" frameX="-121" frameY="-138" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="left 10011" x="0" y="766" width="431" height="394" frameX="0" frameY="-22" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="left 10012" x="431" y="766" width="367" height="394" frameX="-64" frameY="-22" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="left 10013" x="798" y="766" width="301" height="394" frameX="-130" frameY="-22" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="right 10014" x="1099" y="766" width="410" height="272" frameX="-160" frameY="-123" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="right 10015" x="1509" y="766" width="348" height="272" frameX="-159" frameY="-123" frameWidth="570" frameHeight="416"/>
+	<SubTexture name="right 10016" x="0" y="1160" width="291" height="272" frameX="-159" frameY="-123" frameWidth="570" frameHeight="416"/>
+</TextureAtlas>

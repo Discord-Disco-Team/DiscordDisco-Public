@@ -1,0 +1,9 @@
+{
+	"directory": "chrisroom",
+	"defaultZoom": 0.85,
+	"isPixelStage": false,
+
+	"boyfriend": [940, 100],
+	"girlfriend": [1200, 130],
+	"opponent": [200, 100]
+}

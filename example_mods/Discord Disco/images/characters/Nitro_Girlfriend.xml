@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nitro_Girlfriend.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF dance0000" x="0" y="0" width="310" height="472" pivotX="-172.5" pivotY="306.95" frameX="-7" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0001" x="0" y="0" width="310" height="472" frameX="-7" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0002" x="310" y="0" width="311" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0003" x="310" y="0" width="311" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0004" x="621" y="0" width="314" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0005" x="621" y="0" width="314" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0006" x="0" y="473" width="319" height="473" frameX="0" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0007" x="0" y="473" width="319" height="473" frameX="0" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0008" x="319" y="473" width="313" height="473" frameX="-8" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0009" x="319" y="473" width="313" height="473" frameX="-8" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0010" x="632" y="473" width="313" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0011" x="632" y="473" width="313" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0012" x="632" y="473" width="313" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="GF dance0013" x="632" y="473" width="313" height="473" frameX="-9" frameY="0" frameWidth="322" frameHeight="473"/>
+</TextureAtlas>

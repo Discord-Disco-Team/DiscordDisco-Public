@@ -1,0 +1,47 @@
+# Query: corn
+# ContextLines: 1
+
+
+
+38 results - 1 file
+
+C:\Users\Hardy\Downloads\ddmod\PsychEngine\mods\images\characters\cornstarch.xml:
+   1  <?xml version='1.0' encoding='utf-8'?>
+   2: <TextureAtlas imagePath="cornstarch.png"><SubTexture name="corn idle0000" x="0" y="675" width="298" height="657" frameX="-196" frameY="-110" frameWidth="700" frameHeight="800" />
+   3: <SubTexture name="corn idle0001" x="724" y="1332" width="297" height="639" frameX="-187" frameY="-128" frameWidth="700" frameHeight="800" />
+   4: <SubTexture name="corn idle0002" x="1234" y="1978" width="301" height="614" frameX="-183" frameY="-153" frameWidth="700" frameHeight="800" />
+   5: <SubTexture name="corn idle0003" x="1764" y="651" width="300" height="650" frameX="-195" frameY="-117" frameWidth="700" frameHeight="800" />
+   6: <SubTexture name="corn idle0004" x="0" y="0" width="313" height="675" frameX="-197" frameY="-92" frameWidth="700" frameHeight="800" />
+   7: <SubTexture name="corn idle0005" x="313" y="0" width="303" height="668" frameX="-196" frameY="-99" frameWidth="700" frameHeight="800" />
+   8: <SubTexture name="corn up0000" x="1237" y="2601" width="426" height="545" frameX="-189" frameY="-222" frameWidth="700" frameHeight="800" />
+   9: <SubTexture name="corn up0001" x="0" y="2601" width="426" height="578" frameX="-188" frameY="-189" frameWidth="700" frameHeight="800" />
+  10: <SubTexture name="corn up0002" x="425" y="1978" width="425" height="616" frameX="-188" frameY="-151" frameWidth="700" frameHeight="800" />
+  11: <SubTexture name="corn up0003" x="1745" y="1332" width="423" height="634" frameX="-188" frameY="-133" frameWidth="700" frameHeight="800" />
+  12: <SubTexture name="corn up0004" x="298" y="675" width="426" height="656" frameX="-190" frameY="-111" frameWidth="700" frameHeight="800" />
+  13: <SubTexture name="corn up0005" x="299" y="1332" width="425" height="641" frameX="-190" frameY="-126" frameWidth="700" frameHeight="800" />
+  14: <SubTexture name="corn up0006" x="0" y="1978" width="425" height="623" frameX="-189" frameY="-144" frameWidth="700" frameHeight="800" />
+  15: <SubTexture name="corn down0000" x="2600" y="0" width="407" height="628" frameX="-186" frameY="-137" frameWidth="700" frameHeight="800" />
+  16: <SubTexture name="corn down0001" x="1901" y="1978" width="407" height="602" frameX="-186" frameY="-163" frameWidth="700" frameHeight="800" />
+  17: <SubTexture name="corn down0002" x="1663" y="2601" width="406" height="542" frameX="-184" frameY="-223" frameWidth="700" frameHeight="800" />
+  18: <SubTexture name="corn down0003" x="833" y="2601" width="404" height="566" frameX="-183" frameY="-199" frameWidth="700" frameHeight="800" />
+  19: <SubTexture name="corn down0004" x="426" y="2601" width="407" height="576" frameX="-187" frameY="-189" frameWidth="700" frameHeight="800" />
+  20: <SubTexture name="corn left0000" x="616" y="0" width="365" height="658" frameX="-171" frameY="-107" frameWidth="700" frameHeight="800" />
+  21: <SubTexture name="corn left0001" x="3007" y="0" width="367" height="590" frameX="-175" frameY="-136" frameWidth="700" frameHeight="800" />
+  22: <SubTexture name="corn left0002" x="1535" y="1978" width="366" height="603" frameX="-172" frameY="-123" frameWidth="700" frameHeight="800" />
+  23: <SubTexture name="corn left0003" x="1022" y="675" width="413" height="654" frameX="-123" frameY="-111" frameWidth="700" frameHeight="800" />
+  24: <SubTexture name="corn left0004" x="2181" y="634" width="414" height="633" frameX="-120" frameY="-132" frameWidth="700" frameHeight="800" />
+  25: <SubTexture name="corn left0005" x="2181" y="0" width="419" height="634" frameX="-112" frameY="-131" frameWidth="700" frameHeight="800" />
+  26: <SubTexture name="corn left0006" x="1764" y="0" width="417" height="651" frameX="-116" frameY="-114" frameWidth="700" frameHeight="800" />
+  27: <SubTexture name="corn right0000" x="981" y="0" width="342" height="658" frameX="-182" frameY="-109" frameWidth="700" frameHeight="800" />
+  28: <SubTexture name="corn right0001" x="2600" y="628" width="381" height="628" frameX="-187" frameY="-139" frameWidth="700" frameHeight="800" />
+  29: <SubTexture name="corn right0002" x="850" y="1978" width="384" height="615" frameX="-190" frameY="-152" frameWidth="700" frameHeight="800" />
+  30: <SubTexture name="corn right0003" x="2308" y="1978" width="426" height="599" frameX="-189" frameY="-168" frameWidth="700" frameHeight="800" />
+  31: <SubTexture name="corn right0004" x="1021" y="1332" width="430" height="637" frameX="-185" frameY="-130" frameWidth="700" frameHeight="800" />
+  32: <SubTexture name="corn right0005" x="1323" y="0" width="441" height="658" frameX="-182" frameY="-109" frameWidth="700" frameHeight="800" />
+  33: <SubTexture name="corn hey0000" x="724" y="675" width="298" height="656" frameX="-196" frameY="-111" frameWidth="700" frameHeight="800" />
+  34: <SubTexture name="corn hey0001" x="1451" y="1332" width="294" height="635" frameX="-191" frameY="-132" frameWidth="700" frameHeight="800" />
+  35: <SubTexture name="corn hey0002" x="2600" y="1256" width="294" height="623" frameX="-191" frameY="-144" frameWidth="700" frameHeight="800" />
+  36: <SubTexture name="corn hey0003" x="2181" y="1267" width="298" height="633" frameX="-195" frameY="-134" frameWidth="700" frameHeight="800" />
+  37: <SubTexture name="corn hey0004" x="1435" y="675" width="305" height="646" frameX="-196" frameY="-121" frameWidth="700" frameHeight="800" />
+  38: <SubTexture name="corn hey0005" x="0" y="1332" width="299" height="646" frameX="-196" frameY="-121" frameWidth="700" frameHeight="800" />
+  39  </TextureAtlas>

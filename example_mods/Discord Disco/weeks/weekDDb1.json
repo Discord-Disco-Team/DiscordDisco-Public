@@ -1,0 +1,40 @@
+{
+	"storyName": "Musician Monarchy",
+	"difficulties": "Basic",
+	"hideFreeplay": false,
+	"weekBackground": "Mweek1",
+	"weekBefore": "WeekDD1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Gocky",
+			"nina",
+			[
+				240,
+				160,
+				20
+			]
+		],
+		[
+			"Piss",
+			"scramblo",
+			[
+				100,
+				100,
+				115
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Disco"
+}

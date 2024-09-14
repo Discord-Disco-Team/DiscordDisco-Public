@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				-104
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				139
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				115,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				34,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				112,
+				-150
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "dMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				139
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "uMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				115,
+				6
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "rMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				-16
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "lMiss",
+			"indices": []
+		}
+	],
+	"vocals_file": "Lui",
+	"no_antialiasing": false,
+	"image": "characters/luigifan",
+	"position": [
+		40,
+		120
+	],
+	"healthicon": "luigifan",
+	"flip_x": false,
+	"healthbar_colors": [
+		19,
+		147,
+		130
+	],
+	"camera_position": [
+		80,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

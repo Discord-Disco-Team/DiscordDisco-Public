@@ -1,0 +1,42 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-188,
+				88
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": [
+				1,
+				1,
+				2,
+				0,
+				0
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/iron-girl",
+	"position": [
+		-140,
+		250
+	],
+	"healthicon": "Yipexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

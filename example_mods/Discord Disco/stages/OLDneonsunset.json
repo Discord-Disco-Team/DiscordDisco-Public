@@ -1,0 +1,9 @@
+{
+	"directory": "neonsunset",
+	"defaultZoom": 0.75,
+	"isPixelStage": false,
+
+	"boyfriend": [790, 100],
+	"girlfriend": [400, 130],
+	"opponent": [80, 100]
+}

@@ -1,0 +1,58 @@
+{
+	"storyName": "funkin' with the bois!",
+	"difficulties": "Classic",
+	"hideFreeplay": false,
+	"weekBackground": "the origin",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "WeekDD1",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Stainless old",
+			"iron",
+			[
+				60,
+				60,
+				195
+			]
+		],
+		[
+			"Lets-a-go old",
+			"luigi",
+			[
+				60,
+				60,
+				195
+			]
+		],
+		[
+			"Cracker old",
+			"chris",
+			[
+				60,
+				60,
+				195
+			]
+		],
+		[
+			"Gaylord old",
+			"antchrust",
+			[
+				60,
+				60,
+				195
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Disco"
+}

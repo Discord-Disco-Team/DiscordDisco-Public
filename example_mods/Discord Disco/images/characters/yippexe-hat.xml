@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="yippexe-hat.png">
+<SubTexture name="up0000" x="548" y="0" width="178" height="358" frameX="-216" frameY="-120" frameWidth="600" frameHeight="600" />
+<SubTexture name="up0001" x="0" y="385" width="193" height="331" frameX="-207" frameY="-147" frameWidth="600" frameHeight="600" />
+<SubTexture name="left0000" x="265" y="0" width="283" height="382" frameX="-39" frameY="-96" frameWidth="600" frameHeight="600" />
+<SubTexture name="left0001" x="0" y="0" width="265" height="385" frameX="-60" frameY="-93" frameWidth="600" frameHeight="600" />
+<SubTexture name="down0000" x="973" y="449" width="250" height="160" frameX="-201" frameY="-315" frameWidth="600" frameHeight="600" />
+<SubTexture name="down0001" x="973" y="268" width="235" height="181" frameX="-207" frameY="-294" frameWidth="600" frameHeight="600" />
+<SubTexture name="right0000" x="193" y="385" width="247" height="268" frameX="-240" frameY="-207" frameWidth="600" frameHeight="600" />
+<SubTexture name="right0001" x="440" y="385" width="250" height="268" frameX="-240" frameY="-207" frameWidth="600" frameHeight="600" />
+<SubTexture name="right0002" x="726" y="0" width="247" height="268" frameX="-240" frameY="-207" frameWidth="600" frameHeight="600" />
+<SubTexture name="right0003" x="973" y="0" width="250" height="268" frameX="-240" frameY="-207" frameWidth="600" frameHeight="600" />
+<SubTexture name="idle0000" x="0" y="716" width="301" height="199" frameX="-162" frameY="-273" frameWidth="600" frameHeight="600" />
+</TextureAtlas>

@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				90,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE"
+		},
+		{
+			"offsets": [
+				280,
+				-163
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LEFT_POSE"
+		},
+		{
+			"offsets": [
+				120,
+				-260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RIGHT_POSE"
+		},
+		{
+			"offsets": [
+				241,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DOWN_POSE"
+		},
+		{
+			"offsets": [
+				202,
+				113
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UP_POSE"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/roblox_dude_assets",
+	"position": [
+		130,
+		40
+	],
+	"healthicon": "chris",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		219,
+		0
+	],
+	"camera_position": [
+		-200,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}
