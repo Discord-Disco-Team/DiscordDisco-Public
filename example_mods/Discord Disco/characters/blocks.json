@@ -60,15 +60,15 @@
 	"no_antialiasing": false,
 	"image": "characters/blocks",
 	"position": [
-		10,
+		30,
 		410
 	],
-	"healthicon": "a",
+	"healthicon": "steve",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		49,
+		154,
+		206
 	],
 	"camera_position": [
 		-130,

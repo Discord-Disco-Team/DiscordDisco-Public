@@ -3,7 +3,7 @@ function onEvent(name, value1, value2)
         makeLuaSprite('image', value1, 0, 0);
         addLuaSprite('image', true);
         scaleObject('image', 0.5, 0.52);
-        doTweenColor('hello', 'image', 'FFFFFFFF', 0.3, 'quartIn');
+        doTweenColor('hello', 'image', 'FFFFFFFF', 0.8, 'quartIn');
         setObjectCamera('image', 'other');
         runTimer('wait', value2);
 	screenCenter('image')

@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"gfVersion": "gf",
+		"player1": "bf-discord",
+		"gfVersion": "KittyGf",
 		"notes": [
 			{
 				"sectionBeats": 4,
@@ -63,19 +63,19 @@
 						225
 					],
 					[
-						2316.17647058824,
+						4522.05882352941,
+						0,
+						0
+					],
+					[
+						2095.58823529412,
 						3,
 						0
 					],
 					[
-						2647.05882352941,
+						2426.47058823529,
 						0,
-						0
-					],
-					[
-						4522.05882352941,
-						0,
-						0
+						222
 					]
 				],
 				"typeOfSection": 0,
@@ -140,13 +140,13 @@
 						0
 					],
 					[
-						7830.88235294118,
-						3,
+						8272.05882352941,
+						2,
 						0
 					],
 					[
-						8272.05882352941,
-						2,
+						7941.17647058824,
+						3,
 						0
 					]
 				],
@@ -3524,9 +3524,9 @@
 		],
 		"player2": "blocks",
 		"song": "minecraft",
-		"needsVoices": true,
-		"stage": "stage",
+		"stage": "NewCave",
 		"validScore": true,
+		"needsVoices": true,
 		"speed": 2.9,
 		"bpm": 136
 	}

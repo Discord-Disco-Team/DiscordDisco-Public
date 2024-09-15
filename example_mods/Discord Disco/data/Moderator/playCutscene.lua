@@ -2,16 +2,12 @@ playVideo = true;
 playDialogue = false;
 
 function onStartCountdown()
-	if isStoryMode then
-		if playVideo then --Video cutscene plays first
-			startVideo('moderator'); --Play video file from "videos/" folder
+	if isStoryMode and not seenCutscene then
+		if playVideo then
+			startVideo('moderator');
 			playVideo = false;
-			return Function_Stop; --Prevents the song from starting naturally
-		elseif playDialogue then --Once the video ends it calls onStartCountdown again. Play dialogue this time
-			startDialogue('dialogue', 'breakfast'); --"breakfast" is the dialogue music file from "music/" folder
-			playDialogue = false;
-			return Function_Stop; --Prevents the song from starting naturally
+			return Function_Stop;
 		end
 	end
-	return Function_Continue; --Played video and dialogue, now the song can start normally
+	return Function_Continue;
 end
