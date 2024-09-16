@@ -1,0 +1,32 @@
+{
+	"storyName": "bro im so tired",
+	"difficulties": "Luigi, Cornstarch, Iron",
+	"hideFreeplay": false,
+	"weekBackground": "the origin",
+	"weekBefore": "weekDD1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Voice Chat",
+			"everyone",
+			[
+				60,
+				60,
+				60
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "voice shit"
+}

@@ -9,7 +9,7 @@
 		113,
 		253
 	],
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"hideStoryMode": true,
 	"weekCharacters": [
 		"",
@@ -17,15 +17,6 @@
 		""
 	],
 	"songs": [
-		[
-			"Voice Chat",
-			"everyone",
-			[
-				60,
-				60,
-				60
-			]
-		],
 		[
 			"Bazinga",
 			"ron",
@@ -51,24 +42,6 @@
 				100,
 				60,
 				80
-			]
-		],
-		[
-			"Foolish",
-			"Get-out",
-			[
-				226,
-				73,
-				133
-			]
-		],
-		[
-			"To Be Honest",
-			"Scramblo",
-			[
-				20,
-				20,
-				20
 			]
 		]
 	],
