@@ -18,6 +18,17 @@
 			],
 			"loop": false,
 			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
 			"name": "down"
@@ -34,47 +45,36 @@
 			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
+			"indices": [],
+			"name": "right"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/luigi-vc",
+	"image": "characters/gaylord-vc",
 	"position": [
-		0,
+		-90,
 		200
 	],
-	"healthicon": "luigifan",
+	"healthicon": "gay",
 	"flip_x": false,
 	"healthbar_colors": [
-		19,
-		147,
-		130
+		255,
+		76,
+		240
 	],
 	"camera_position": [
-		210,
+		120,
 		-40
 	],
 	"sing_duration": 4,
 	"scale": 1,
-	"_editor_isPlayer": false
+	"_editor_isPlayer": true
 }

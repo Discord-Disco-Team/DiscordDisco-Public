@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				-1,
-				-1
+				15,
+				-2
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,19 @@
 		},
 		{
 			"offsets": [
-				0,
-				0
+				15,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				15,
+				-1
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				0
+				15,
+				-1
 			],
 			"loop": false,
 			"fps": 24,
@@ -34,44 +45,33 @@
 			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				15,
+				-1
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
+			"indices": [],
+			"name": "right"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/luigi-vc",
+	"image": "characters/iron-vc",
 	"position": [
-		0,
+		-650,
 		200
 	],
-	"healthicon": "luigifan",
-	"flip_x": false,
+	"healthicon": "ironed",
+	"flip_x": true,
 	"healthbar_colors": [
-		19,
-		147,
-		130
+		157,
+		176,
+		177
 	],
 	"camera_position": [
-		210,
+		-380,
 		-40
 	],
 	"sing_duration": 4,

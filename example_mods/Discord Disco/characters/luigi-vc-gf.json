@@ -2,7 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				-1,
+				-4,
 				-1
 			],
 			"loop": false,
@@ -39,7 +39,7 @@
 				0,
 				0
 			],
-			"anim": "singLEFT",
+			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "right",
 			"indices": []
@@ -50,7 +50,7 @@
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"anim": "singLEFT",
 			"fps": 24,
 			"name": "left",
 			"indices": []
@@ -61,7 +61,7 @@
 	"image": "characters/luigi-vc",
 	"position": [
 		0,
-		200
+		-150
 	],
 	"healthicon": "luigifan",
 	"flip_x": false,
@@ -71,8 +71,8 @@
 		130
 	],
 	"camera_position": [
-		210,
-		-40
+		0,
+		180
 	],
 	"sing_duration": 4,
 	"scale": 1,

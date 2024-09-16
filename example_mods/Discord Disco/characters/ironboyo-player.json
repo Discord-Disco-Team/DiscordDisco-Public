@@ -1,0 +1,163 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				10
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "singLEFTmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				191,
+				-10
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "singDOWNmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				11
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "singRIGHTmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				20
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "singUPmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				197,
+				11
+			],
+			"anim": "Hey",
+			"fps": 12,
+			"name": "Hey",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				17
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "singLEFT",
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				170,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "singRIGHT",
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "singDOWN",
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				194,
+				21
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "singUP",
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			]
+		}
+	],
+	"vocals_file": "Iron",
+	"no_antialiasing": false,
+	"image": "characters/ironed",
+	"position": [
+		-700,
+		-120
+	],
+	"healthicon": "ironed",
+	"flip_x": true,
+	"healthbar_colors": [
+		157,
+		176,
+		177
+	],
+	"camera_position": [
+		0,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1.2,
+	"_editor_isPlayer": true
+}

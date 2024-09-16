@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				-1,
-				-1
+				6,
+				-2
 			],
 			"loop": false,
 			"fps": 24,
@@ -39,7 +39,7 @@
 				0,
 				0
 			],
-			"anim": "singLEFT",
+			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "right",
 			"indices": []
@@ -50,17 +50,17 @@
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"anim": "singLEFT",
 			"fps": 24,
 			"name": "left",
 			"indices": []
 		}
 	],
 	"vocals_file": "",
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/luigi-vc",
 	"position": [
-		0,
+		-90,
 		200
 	],
 	"healthicon": "luigifan",
