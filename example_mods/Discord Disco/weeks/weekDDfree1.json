@@ -43,6 +43,24 @@
 				60,
 				80
 			]
+		],
+		[
+			"To-Be-Honest",
+			"Scramblo",
+			[
+				20,
+				20,
+				20
+			]
+		],
+		[
+			"Foolish",
+			"get-out",
+			[
+				105,
+				42,
+				0
+			]
 		]
 	],
 	"hiddenUntilUnlocked": true,
