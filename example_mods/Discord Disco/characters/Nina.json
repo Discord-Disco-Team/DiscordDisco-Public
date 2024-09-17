@@ -111,6 +111,9 @@
 				94,
 				-101
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "guh",
 			"indices": [
 				0,
 				1,
@@ -181,13 +184,10 @@
 				21,
 				21
 			],
-			"fps": 24,
-			"anim": "guh",
-			"loop": false,
 			"name": "guh"
 		}
 	],
-	"vocals_file": "Nina",
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/nina",
 	"position": [

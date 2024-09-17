@@ -13,6 +13,7 @@ local charColors = {
   ['chris-vc-right'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chrisalticon'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chrisalticon-right'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
+  ['chrisalticon-player'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['antichris'] = {{'770000', 'f0b4b4', 'b71c6f'}},
   ['anti-vc'] = {{'770000', 'f0b4b4', 'b71c6f'}},
   ['anti-vc-right'] = {{'770000', 'f0b4b4', 'b71c6f'}},
