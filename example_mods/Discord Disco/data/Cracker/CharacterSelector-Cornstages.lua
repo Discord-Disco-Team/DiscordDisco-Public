@@ -9,18 +9,21 @@ end
 --local luaDebugMode = true
 if not isStoryMode then
     function onCreatePost()
-        characters = {
+        triggerEvent("Camera Follow Pos", "700", "400")
+        characters = { 
             getProperty("boyfriend.curCharacter"),
             "bf-discord",
             "gf-discord",
-            "bf"
-        }
+            "bf",
+            "Nitro bf" 
+            }
         characterNames = {
             "Default",
             "Boyfriend",
             "Girlfriend",
-            "Boyfriend (Classic)"
-        }
+            "Boyfriend (Classic)",
+            "Boyfriend (Old)"
+            }
         for i = 1, #characters do
             debugPrint(i)
             addCharacterToList(characters[i])
@@ -44,6 +47,15 @@ if not isStoryMode then
                         charNum = charNum + 1
                     end
                     triggerEvent("Change Character", "0", characters[charNum])
+                    if charNum == 3 then
+                        triggerEvent("Change Character", "2", "no-gf")
+                    elseif charNum == 4 then
+                        triggerEvent("Change Character", "2", "gf")
+                    elseif charNum == 5 then
+                        triggerEvent("Change Character", "2", "Nitro gf")
+                    else
+                        triggerEvent("Change Character", "2", "Kittygf")
+                    end
                 end
 
                 if keyJustPressed("left") then
@@ -53,6 +65,15 @@ if not isStoryMode then
                         charNum = charNum - 1
                     end
                     triggerEvent("Change Character", "0", characters[charNum])
+                    if charNum == 3 then
+                        triggerEvent("Change Character", "2", "no-gf")
+                    elseif charNum == 4 then
+                        triggerEvent("Change Character", "2", "gf")
+                    elseif charNum == 5 then
+                        triggerEvent("Change Character", "2", "Nitro gf")
+                    else
+                        triggerEvent("Change Character", "2", "Kittygf")
+                    end
                 end
                 screenCenter("charName", "x")
                 if keyJustPressed("back") then
@@ -61,6 +82,7 @@ if not isStoryMode then
                     restartSong()
                 end
                 if keyJustPressed("accept") then
+                    triggerEvent("Camera Follow Pos", "", "")
                     setProperty("charName.visible", false)
                     selectedChar = true
                     startCountdown()
