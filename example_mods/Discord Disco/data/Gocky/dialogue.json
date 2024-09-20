@@ -4,105 +4,105 @@
 			"expression": "talk",
 			"text": "Hm?",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Bloop",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Oh what the fuck are you doing in my room who are you oh my go-",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Hey hey calm down",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.05,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Wait are you",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "(...Wow i sound so cliche right now)",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Do you wanna like, rap or...",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "yeah ight",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "I got a song i think you'd like",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Here, Gocky!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Why did you call it that",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.05,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Got peer pressured because it was funny  and also because of this one girl on that one website tbh it was kinda crazy if you-",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "ninadialogue",
 			"speed": 0.04,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "ok",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": ""
 		}
 	]
 }
