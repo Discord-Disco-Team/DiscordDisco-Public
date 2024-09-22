@@ -16,7 +16,7 @@ Amirz::credit-amirz::Musician::https://twitter.com/IzAybs::64ffc3
 ItzJake::credit-jake::Musician::::35e3de
 Buddy_Meko::credit-meko::Artist / Animator::https://twitter.com/buddy_meko::8146cf
 MissMisty11::credit-misty::Artist / Animator / Nina's Bunny::https://twitter.com/MrMisty11::ffc078
-DevilishFox82::credit-devilish::Charter::https://twitter.com/DevilishFox82::4f3fc9
+DevilishFox82::credit-devilish::Charter / Coder::https://twitter.com/DevilishFox82::4f3fc9
 NiceSuperdash::credit-nice::Moral Support / Artist / Video Editor::https://twitter.com/NiceSuperDash::9dd9ff
 PlatexReal::credit-platex::Musician::https://twitter.com/platexreal::96d7db
 ScreenTheGoo::credit-screen::Artist / Faggot::https://twitter.com/ScreenTheGoo::58e8ff
