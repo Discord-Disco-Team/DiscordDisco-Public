@@ -1,25 +1,29 @@
 Discord Disco 2.5 Team
-Luigifan122::credit-luigi::Director / Programmer / Charter / Animator / VA / Owner of Luigifan::youtube.com/@Luigifan122::3f9943
-FurretWithATophat::credit-furret::Co-Director / Composer / Artist / Certified Loser::https://twitter.com/FurretTophat::FFFFFF
-Nina.Northen::credit-nina::Co-Director / Programmer / Composer / Artist / Animator / Misty's Hunny::https://twitter.com/NinaNorthenFNF::672299
+Luigifan122::credit-luigi::Director / Programmer / Charter / Animator / VA / Owner of Luigifan::youtube.com/@Luigifan122::35b851
+FurretWithATophat::credit-furret::Co-Director / Composer / Artist / Certified Loser::https://twitter.com/FurretTophat::4595ff
+Nina.Northen::credit-nina::Co-Director / Programmer / Composer / Artist / Animator / Misty's Hunny::https://twitter.com/NinaNorthenFNF::cb63ff
 
-SE-Ironed::credit-iron::VA / Owner of Ironed::https://twitter.com/SEironed::4b4f4f
-Cornstarch Crusader::credit-chris::VA / Owner of Cornstarch::https://twitter.com/DanteWacky::ffbc12
+SE-Ironed::credit-iron::VA / Owner of Ironed::https://twitter.com/SEironed::3affff
+Cornstarch Crusader::credit-chris::VA / Owner of Cornstarch::https://twitter.com/DanteWacky::ffffff
 
-Abicus_NULL::credit-abicus::Programmer / Composer / Artist / Animator::https://twitter.com/AnilmkyNikko::672299
-FizzyProd::credit-fizzyflux::Programmer / Composer::https://twitter.com/fizzyflux::672299
-Uraysan::credit-uray::Musician/Chromatic Maker::https://twitter.com/uraysan::30b3ba
-Fizzysoda::credit-fizzzy::Musician::https://www.youtube.com/channel/UCGgZuwJaOaiTYkUCZnhbZcw::ffe0e0
-Bl!ndsxnse::credit-xenon::Musician::https://twitter.com/Xenonirl::1b095c
-Amirz::credit-amirz::Musician::https://twitter.com/IzAybs::141414
-Buddy_Meko::credit-meko::Artist / Animator::https://twitter.com/buddy_meko::672299
-MissMisty11::credit-misty::Artist / Animator / Nina's Bunny::https://twitter.com/MrMisty11::672299
-NiceSuperdash::credit-nice::Moral Support / Artist / Video Editor::https://twitter.com/NiceSuperDash::672299
-PlatexReal::credit-platex::Musician::https://twitter.com/platexreal::672299
-DevilishFox82::credit-devilish::Charter::https://twitter.com/DevilishFox82::672299
-ScreenTheGoo::credit-screen::Artist / Faggot::https://twitter.com/ScreenTheGoo::07f5b9
-_Alex_::credit-alex::Artist / Animator / Character Designer::https://twitter.com/succeroni11::e0b182
-Chibi::credit-chibi::Artist / Animator::https://twitter.com/ChibiShibi_::d4873b
+Abicus_NULL::credit-abicus::Programmer / Composer / Artist / Animator::https://twitter.com/AnilmkyNikko::ff1566
+Fizzy::credit-fizzyflux::Programmer / Composer::https://twitter.com/prodfizzy::ff1e38
+Blakkr::credit-blake::Programmer::https://x.com/blakrrlmao::1d9e4a
+Uraysan::credit-uray::Musician / Chromatic Maker::https://twitter.com/uraysan::3755aa
+Fizzysoda::credit-fizzzy::Musician::https://www.youtube.com/channel/UCGgZuwJaOaiTYkUCZnhbZcw::e8384f
+Bl!ndsxnse::credit-xenon::Musician::https://twitter.com/Xenonirl::501a9b
+Amirz::credit-amirz::Musician::https://twitter.com/IzAybs::64ffc3
+ItzJake::credit-jake::Musician::::35e3de
+Buddy_Meko::credit-meko::Artist / Animator::https://twitter.com/buddy_meko::8146cf
+MissMisty11::credit-misty::Artist / Animator / Nina's Bunny::https://twitter.com/MrMisty11::ffc078
+DevilishFox82::credit-devilish::Charter::https://twitter.com/DevilishFox82::4f3fc9
+NiceSuperdash::credit-nice::Moral Support / Artist / Video Editor::https://twitter.com/NiceSuperDash::9dd9ff
+PlatexReal::credit-platex::Musician::https://twitter.com/platexreal::96d7db
+ScreenTheGoo::credit-screen::Artist / Faggot::https://twitter.com/ScreenTheGoo::58e8ff
+_Alex_::credit-alex::Artist / Animator / Character Designer::https://twitter.com/succeroni11::f9e78c
+Chibi::credit-chibi::Artist / Animator::https://twitter.com/ChibiShibi_::ff8a31
+Rosie::credit-rosie::Girlfriend VA::https://youtube.com/@rosie_was_here_?si=yD5754tX_fZ4tq-a::d80c6f
+Fredeels::credit-freddy::Girlfriend Spriter::https://x.com/fredeels::ce4f28
 
 
 DD Special Thanks
@@ -29,4 +33,5 @@ Chemax::credit-cheems::Artist / Animator::https://twitter.com/chemaxgod::14db53
 Kidemon::credit-kide::Animator::https://gamebanana.com/mods/440294::ff8e0d
 Oddestial::credit-odd::Artist::https://twitter.com/oddestial::820a40
 Kiwiquest::credit-kiwi::Composed Lore (OG)::https://twitter.com/kiwiquestt::00ff1e
+SillyGeese::credit-geese::Character Select Script Creator::https://www.youtube.com/channel/UCyokSQHhXm_92CG2k2DzJXg::35e3de
 
