@@ -4502,8 +4502,8 @@
 				0,
 				[
 					[
-						"Add Camera Zoom",
-						"",
+						"Hide Hud",
+						"1",
 						""
 					]
 				]
@@ -4589,6 +4589,16 @@
 				]
 			],
 			[
+				11400,
+				[
+					[
+						"Image Flash",
+						"CrashOut",
+						"1.8"
+					]
+				]
+			],
+			[
 				12800,
 				[
 					[
@@ -4619,6 +4629,16 @@
 				]
 			],
 			[
+				13500,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			],
+			[
 				13600,
 				[
 					[
@@ -4635,6 +4655,16 @@
 						"Add Camera Zoom",
 						"",
 						""
+					],
+					[
+						"Alter Visibility",
+						"camGame",
+						"false"
+					],
+					[
+						"Image Flash",
+						"Room For More",
+						"1.5"
 					]
 				]
 			],
@@ -4685,6 +4715,11 @@
 						"Add Camera Zoom",
 						"",
 						""
+					],
+					[
+						"Alter Visibility",
+						"camGame",
+						"true"
 					]
 				]
 			],
@@ -4695,6 +4730,26 @@
 						"Alter Visibility",
 						"camGame",
 						"false"
+					]
+				]
+			],
+			[
+				117200,
+				[
+					[
+						"Image Flash",
+						"babyfan",
+						"0.1"
+					]
+				]
+			],
+			[
+				119700,
+				[
+					[
+						"Image Flash",
+						"Ashbaby",
+						"5"
 					]
 				]
 			]
