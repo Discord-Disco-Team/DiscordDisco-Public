@@ -17,7 +17,7 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Change Difficulty', 'Options', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Continue', 'Replay Song', 'Options', 'Return to Menu'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -34,8 +34,6 @@ class PauseSubState extends MusicBeatSubstate
 
 	override function create()
 	{
-		if(Difficulty.list.length < 2) menuItemsOG.remove('Change Difficulty'); //No need to change difficulty if there is only one!
-
 		if(PlayState.chartingMode)
 		{
 			menuItemsOG.insert(2, 'Leave Charting Mode');
@@ -90,7 +88,7 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
-		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "Blueballed: " + PlayState.deathCounter, 32);
+		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "Disconnects: " + PlayState.deathCounter, 32);
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
@@ -253,7 +251,7 @@ class PauseSubState extends MusicBeatSubstate
 
 			switch (daSelected)
 			{
-				case "Resume":
+				case "Continue":
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
@@ -263,7 +261,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.instance.practiceMode = !PlayState.instance.practiceMode;
 					PlayState.changedDifficulty = true;
 					practiceText.visible = PlayState.instance.practiceMode;
-				case "Restart Song":
+				case "Replay Song":
 					restartSong();
 				case "Leave Charting Mode":
 					restartSong();
@@ -305,7 +303,7 @@ class PauseSubState extends MusicBeatSubstate
 						FlxG.sound.music.time = pauseMusic.time;
 					}
 					OptionsState.onPlayState = true;
-				case "Exit to menu":
+				case "Return to Menu":
 					#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
