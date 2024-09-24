@@ -1,0 +1,113 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				3
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				-3
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "up",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-3,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "up",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				3,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "up",
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/luigifreak",
+	"position": [
+		100,
+		340
+	],
+	"healthicon": "luigilore",
+	"flip_x": false,
+	"healthbar_colors": [
+		121,
+		255,
+		148
+	],
+	"camera_position": [
+		50,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 2.5,
+	"_editor_isPlayer": false
+}
