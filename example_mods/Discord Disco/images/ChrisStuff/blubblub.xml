@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="blubblub.png">
+<SubTexture name="blubblub blooble0000" x="168" y="0" width="79" height="163" frameX="-501" frameY="-962" frameWidth="2220" frameHeight="1227" />
+<SubTexture name="blubblub blooble0001" x="0" y="0" width="62" height="185" frameX="-508" frameY="-970" frameWidth="2220" frameHeight="1227" />
+<SubTexture name="blubblub blooble0002" x="62" y="0" width="106" height="169" frameX="-491" frameY="-995" frameWidth="2220" frameHeight="1227" />
+</TextureAtlas>
