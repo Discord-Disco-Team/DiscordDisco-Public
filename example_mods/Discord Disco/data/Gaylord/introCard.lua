@@ -2,7 +2,7 @@
 
 local composer = "Nina.Northen & FizzySoda" -- the song's composer
 local icon = "sodanina" --  the composer's icon, put it in "images/introCard/icons" (has to be 56x56)
-local disappearBeat = 8 -- the beat on which the card disappears
+local disappearBeat = 172 -- the beat on which the card disappears
 local playDiscordSound = true -- set this to false if you dont want the notification sound to play
 local discordSoundVolume = 1.0 -- change this to change the notification sound volume
 
@@ -34,11 +34,13 @@ function onCreate()
     addLuaText("intro-songname")
 end
 
-function onSongStart()
-    doTweenX("intro-tween", "intro-notifbg", screenWidth - 360, 0.5, "circOut")
-    if playDiscordSound == true then
-        playSound("intro-discord", discordSoundVolume)
-    end
+function onStepHit()
+	if curStep == 656 then
+	    doTweenX("intro-tween", "intro-notifbg", screenWidth - 360, 0.5, "circOut")
+	    if playDiscordSound == true then
+	        playSound("intro-discord", discordSoundVolume)
+	    end	
+        end
 end
 
 function onUpdate(elapsed)

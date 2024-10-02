@@ -49,12 +49,16 @@ if not isStoryMode then
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "luifann")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "luifann")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "luigifan")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "luifann")
                     end
                 end
 
@@ -67,12 +71,16 @@ if not isStoryMode then
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "luifann")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "luifann")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "luigifan")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "luifann")
                     end
                 end
                 screenCenter("charName", "x")

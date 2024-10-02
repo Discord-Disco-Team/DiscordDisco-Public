@@ -400,11 +400,6 @@
 						"true"
 					],
 					[
-						"badapplelol",
-						"a",
-						"0.2"
-					],
-					[
 						"Flash Camera",
 						"1",
 						""
@@ -418,6 +413,106 @@
 						"Healthbar_ByeBye",
 						"1",
 						""
+					]
+				]
+			],
+			[
+				140775,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				140850,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				140925,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141000,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141075,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141150,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141225,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141300,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141375,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				141450,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
 					]
 				]
 			],

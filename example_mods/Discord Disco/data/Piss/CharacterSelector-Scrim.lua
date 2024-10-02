@@ -15,14 +15,16 @@ if not isStoryMode then
             "bf-discord",
             "gf-discord",
             "bf",
-            "Nitro bf" 
+            "Nitro bf",
+            "yipbf" 
             }
         characterNames = {
             "Default",
             "Boyfriend",
             "Girlfriend",
             "Boyfriend (Classic)",
-            "Boyfriend (Old)"
+            "Boyfriend (Old)",
+            "Boyfriend (TBH)"
             }
         for i = 1, #characters do
             debugPrint(i)
@@ -49,12 +51,19 @@ if not isStoryMode then
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
+                    elseif charNum == 6 then
+                        triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "yippexe-hat")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     end
                 end
 
@@ -67,12 +76,19 @@ if not isStoryMode then
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
+                    elseif charNum == 6 then
+                        triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "yippexe-hat")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "Scrimblo")
                     end
                 end
                 screenCenter("charName", "x")

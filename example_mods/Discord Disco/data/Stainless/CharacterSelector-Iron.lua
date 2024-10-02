@@ -46,15 +46,19 @@ if not isStoryMode then
                     else
                         charNum = charNum + 1
                     end
-                    triggerEvent("Change Character", "0", characters[charNum])
+                triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "SE-ironed")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     end
                 end
 
@@ -64,15 +68,19 @@ if not isStoryMode then
                     else
                         charNum = charNum - 1
                     end
-                    triggerEvent("Change Character", "0", characters[charNum])
+                triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
                         triggerEvent("Change Character", "2", "no-gf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     elseif charNum == 4 then
                         triggerEvent("Change Character", "2", "gf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "2", "Nitro gf")
+                        triggerEvent("Change Character", "1", "SE-ironed")
                     else
                         triggerEvent("Change Character", "2", "Kittygf")
+                        triggerEvent("Change Character", "1", "ironboyo")
                     end
                 end
                 screenCenter("charName", "x")

@@ -50,17 +50,17 @@ function onCreate()
 			setLuaSpriteScrollFactor('Tense', 1, 1);
 			scaleObject('Tense', 1.1, 1.1);
 
-			makeAnimatedLuaSprite('blub', 'ChrisStuff/blubblub', -550, -170);
+			makeAnimatedLuaSprite('blub', 'ChrisStuff/blubblub', -600, -250);
 			addAnimationByPrefix('blub', 'blooble', 'blubblub', 12, true)
 			setProperty('blub.antialiasing', false); 
 			setScrollFactor('blub', 1, 1);
 			scaleObject('blub', 1, 1);
-			makeAnimatedLuaSprite('blub1', 'ChrisStuff/blubblub', 50, -150);
+			makeAnimatedLuaSprite('blub1', 'ChrisStuff/blubblub', 50, -195);
 			addAnimationByPrefix('blub1', 'blooble', 'blubblub', 12, true)
 			setProperty('blub1.antialiasing', false); 
 			setScrollFactor('blub1', 1, 1);
 			scaleObject('blub1', 1, 1);
-			makeAnimatedLuaSprite('blub2', 'ChrisStuff/blubblub', 820, -170);
+			makeAnimatedLuaSprite('blub2', 'ChrisStuff/blubblub', 900, -240);
 			addAnimationByPrefix('blub2', 'blooble', 'blubblub', 12, true)
 			setProperty('blub2.antialiasing', false); 
 			setScrollFactor('blub2', 1, 1);
