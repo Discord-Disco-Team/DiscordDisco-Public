@@ -1,0 +1,26 @@
+{
+	"storyName": "Learn to Funk over VOICe call",
+	"difficulties": "Basic",
+	"hideFreeplay": false,
+	"weekBackground": "Tufuckal",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Mic Test",
+			"gf",
+			[
+				165,
+				40,
+				97
+			]
+		]
+	],
+	"weekName": "Tutorial"
+}

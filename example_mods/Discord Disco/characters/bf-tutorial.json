@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				112,
 				311
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				114,
 				293
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				89,
 				339
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				88,
 				314
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				103,
 				317
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				112,
 				311
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFtmiss",
-			"indices": [],
-			"name": "lMiss"
+			"fps": 24,
+			"name": "lMiss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				114,
 				293
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "dMiss"
+			"fps": 24,
+			"name": "dMiss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				89,
 				339
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "uMiss"
+			"fps": 24,
+			"name": "uMiss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				88,
 				314
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "rMiss"
+			"fps": 24,
+			"name": "rMiss",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				213,
 				867
 			],
-			"anim": "Fly",
+			"loop": false,
 			"fps": 24,
-			"name": "float",
-			"indices": []
+			"anim": "Fly",
+			"indices": [],
+			"name": "float"
 		}
 	],
 	"vocals_file": "BF",
@@ -118,7 +118,7 @@
 		90,
 		550
 	],
-	"healthicon": "discbfgrr",
+	"healthicon": "discbf",
 	"flip_x": true,
 	"healthbar_colors": [
 		10,

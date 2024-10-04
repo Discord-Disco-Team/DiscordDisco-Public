@@ -1,69 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				200,
 				10
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "singLEFTmiss",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "singLEFTmiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				191,
 				-10
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "singDOWNmiss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "singDOWNmiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				180,
 				11
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "singRIGHTmiss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "singRIGHTmiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				180,
 				20
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "singUPmiss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "singUPmiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				197,
 				11
 			],
-			"anim": "Hey",
+			"loop": false,
 			"fps": 12,
-			"name": "Hey",
-			"indices": []
+			"anim": "Hey",
+			"indices": [],
+			"name": "Hey"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				180,
 				10
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Idle",
+			"anim": "idle",
 			"indices": [
 				0,
 				0,
@@ -72,71 +71,83 @@
 				2,
 				3,
 				4
-			]
+			],
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				190,
 				17
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "singLEFT",
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			]
+			],
+			"name": "singLEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				170,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "singRIGHT",
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			]
+			],
+			"name": "singRIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				200,
 				10
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "singDOWN",
+			"anim": "singDOWN",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			]
+			],
+			"name": "singDOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				194,
 				21
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "singUP",
+			"anim": "singUP",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			]
+			],
+			"name": "singUP"
+		},
+		{
+			"offsets": [
+				197,
+				11
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "hey",
+			"loop": false,
+			"name": "Hey"
 		}
 	],
 	"vocals_file": "Iron",

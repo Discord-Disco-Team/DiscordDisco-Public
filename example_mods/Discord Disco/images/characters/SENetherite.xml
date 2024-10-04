@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SENetherite.png">
+<SubTexture name="Idle0000" x="1161" y="0" width="235" height="241" frameX="-194" frameY="-270" frameWidth="640" frameHeight="640" />
+<SubTexture name="Idle0001" x="523" y="887" width="229" height="246" frameX="-200" frameY="-265" frameWidth="640" frameHeight="640" />
+<SubTexture name="Idle0002" x="600" y="630" width="218" height="249" frameX="-210" frameY="-262" frameWidth="640" frameHeight="640" />
+<SubTexture name="Idle0003" x="950" y="0" width="211" height="249" frameX="-218" frameY="-261" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFT0000" x="297" y="1135" width="241" height="238" frameX="-194" frameY="-266" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFT0001" x="538" y="1135" width="242" height="238" frameX="-200" frameY="-268" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWN0000" x="1161" y="473" width="210" height="226" frameX="-223" frameY="-307" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWN0001" x="1161" y="699" width="204" height="220" frameX="-227" frameY="-304" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUP0000" x="1069" y="1135" width="236" height="215" frameX="-215" frameY="-241" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUP0001" x="1396" y="424" width="236" height="206" frameX="-215" frameY="-250" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHT0000" x="1396" y="213" width="264" height="211" frameX="-265" frameY="-255" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHT0001" x="1396" y="0" width="265" height="213" frameX="-255" frameY="-253" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFTalt0000" x="648" y="0" width="302" height="265" frameX="-133" frameY="-266" frameWidth="640" frameHeight="640" />
+<SubTexture name="singLEFTalt0001" x="0" y="630" width="304" height="257" frameX="-138" frameY="-268" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWNalt0000" x="0" y="323" width="223" height="307" frameX="-210" frameY="-307" frameWidth="640" frameHeight="640" />
+<SubTexture name="singDOWNalt0001" x="223" y="323" width="223" height="305" frameX="-208" frameY="-304" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUPalt0000" x="264" y="887" width="259" height="247" frameX="-192" frameY="-241" frameWidth="640" frameHeight="640" />
+<SubTexture name="singUPalt0001" x="752" y="887" width="260" height="241" frameX="-191" frameY="-250" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHTalt0000" x="322" y="0" width="326" height="320" frameX="-203" frameY="-255" frameWidth="640" frameHeight="640" />
+<SubTexture name="singRIGHTalt0001" x="0" y="0" width="322" height="323" frameX="-198" frameY="-253" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0000" x="0" y="887" width="264" height="248" frameX="-205" frameY="-263" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0001" x="648" y="265" width="288" height="258" frameX="-192" frameY="-249" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0002" x="304" y="630" width="296" height="251" frameX="-188" frameY="-256" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0003" x="0" y="1135" width="297" height="240" frameX="-188" frameY="-267" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0004" x="780" y="1135" width="289" height="232" frameX="-192" frameY="-275" frameWidth="640" frameHeight="640" />
+<SubTexture name="Hey0005" x="1161" y="241" width="223" height="232" frameX="-221" frameY="-275" frameWidth="640" frameHeight="640" />
+</TextureAtlas>
