@@ -1,0 +1,50 @@
+{
+	"storyName": "Quirked up white boys!",
+	"difficulties": "Basic",
+	"hideFreeplay": false,
+	"weekBackground": "the origin",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekDD1",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Foolish",
+			"get-out",
+			[
+				105,
+				42,
+				0
+			]
+		],
+		[
+			"Bee-KAy",
+			"burgerking",
+			[
+				160,
+				80,
+				100
+			]
+		],
+		[
+			"To-Be-Honest",
+			"Scramblo",
+			[
+				20,
+				20,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
+	"weekName": "free shit",
+	"hiddenUntilUnlocked": true
+}

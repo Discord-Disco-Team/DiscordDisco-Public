@@ -5,15 +5,9 @@
 	"weekBackground": "Tufuckal",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"songs": [
 		[
-			"Tutorial",
+			"Mic Test",
 			"gf",
 			[
 				165,
@@ -21,6 +15,12 @@
 				97
 			]
 		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
 	],
 	"weekName": "Tutorial"
 }
