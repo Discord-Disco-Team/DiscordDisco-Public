@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "Hey",
+			"fps": 24,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "Sad",
+			"loop": false,
+			"name": "sad"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/stella",
+	"position": [-110, 100],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [233, 179, 95],
+	"camera_position": [0, 0],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}
