@@ -1,8 +1,8 @@
 {
-	"storyName": "Quirked up white boys!",
+	"storyName": "TRICKS N' TREATS",
 	"difficulties": "Basic",
 	"hideFreeplay": false,
-	"weekBackground": "the origin",
+	"weekBackground": "PWEEK1",
 	"freeplayColor": [
 		146,
 		113,
@@ -21,8 +21,8 @@
 			]
 		],
 		[
-			"Bee-KAy",
-			"burgerking",
+			"Bee-Kay",
+			"bK",
 			[
 				160,
 				80,
@@ -44,7 +44,7 @@
 		"",
 		""
 	],
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"weekName": "free shit",
 	"hiddenUntilUnlocked": true
 }

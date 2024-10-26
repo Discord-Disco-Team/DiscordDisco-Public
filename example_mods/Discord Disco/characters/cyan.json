@@ -2,7 +2,10 @@
 	"animations": [
 		{
 			"loop": false,
-			"offsets": [162, 326],
+			"offsets": [
+				162,
+				326
+			],
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "left",
@@ -10,7 +13,10 @@
 		},
 		{
 			"loop": false,
-			"offsets": [124, 313],
+			"offsets": [
+				124,
+				313
+			],
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "down",
@@ -18,7 +24,10 @@
 		},
 		{
 			"loop": false,
-			"offsets": [119, 341],
+			"offsets": [
+				119,
+				341
+			],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "up",
@@ -26,7 +35,10 @@
 		},
 		{
 			"loop": false,
-			"offsets": [98, 319],
+			"offsets": [
+				98,
+				319
+			],
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "right",
@@ -34,21 +46,78 @@
 		},
 		{
 			"loop": false,
-			"offsets": [107, 319],
+			"offsets": [
+				107,
+				319
+			],
 			"anim": "idle",
 			"fps": 24,
 			"name": "idle",
 			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				326
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "lMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				124,
+				313
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "dMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				341
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "uMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				98,
+				319
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "rMiss",
+			"indices": []
 		}
 	],
-	"vocals_file": "",
+	"vocals_file": "BF",
 	"no_antialiasing": false,
 	"image": "characters/cyan",
-	"position": [20, 510],
-	"healthicon": "cyan",
+	"position": [
+		20,
+		510
+	],
+	"healthicon": "bbc",
 	"flip_x": true,
-	"healthbar_colors": [161, 161, 161],
-	"camera_position": [140, -260],
+	"healthbar_colors": [
+		0,
+		255,
+		170
+	],
+	"camera_position": [
+		140,
+		-260
+	],
 	"sing_duration": 6.1,
 	"scale": 1,
 	"_editor_isPlayer": true
