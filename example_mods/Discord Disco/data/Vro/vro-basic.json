@@ -10,9 +10,9 @@
 			{
 				"sectionNotes": [],
 				"lengthInSteps": 16,
-				"bpm": 0,
 				"changeBPM": false,
-				"mustHitSection": false
+				"mustHitSection": false,
+				"bpm": 0
 			},
 			{
 				"sectionNotes": [],
@@ -64,9 +64,9 @@
 			{
 				"sectionNotes": [],
 				"lengthInSteps": 16,
-				"bpm": 180,
 				"changeBPM": true,
-				"mustHitSection": false
+				"mustHitSection": false,
+				"bpm": 180
 			},
 			{
 				"sectionNotes": [
@@ -6892,7 +6892,7 @@
 					],
 					[
 						"Cinema_Bars",
-						"40",
+						"100",
 						"2"
 					]
 				]
@@ -6903,6 +6903,21 @@
 					[
 						"Hide Hud",
 						"2",
+						""
+					],
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				101607.142857143,
+				[
+					[
+						"playVideo",
+						"goober",
 						""
 					]
 				]
