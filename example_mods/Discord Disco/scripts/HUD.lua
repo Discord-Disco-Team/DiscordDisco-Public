@@ -13,6 +13,7 @@ local charColors = {
   ['chris'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chris-vc'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chris-vc-right'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
+  ['chris-vc-player'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chrisalticon'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chrisalticon-right'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},
   ['chrisalticon-player'] = {{'dc6d1c', 'fff09f', 'e5c82d'},{'7D7D7D', 'FFFFFF', 'ECECEC'},{'101010', '565656', '303030'},{'1E2640', '5B75C1', '384676'}},

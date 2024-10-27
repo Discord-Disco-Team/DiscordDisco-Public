@@ -4,6 +4,7 @@ charNum = 1
 
 function onSongStart()
     debugPrint(getProperty("boyfriend.curCharacter"))
+    triggerEvent("Change Character", "2", "no-gf")
 end
 
 --local luaDebugMode = true
@@ -48,17 +49,11 @@ if not isStoryMode then
                     end
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
-                        triggerEvent("Change Character", "2", "no-gf")
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 4 then
-                        triggerEvent("Change Character", "2", "gf")
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 5 then
-                        triggerEvent("Change Character", "2", "Nitro gf")
                         triggerEvent("Change Character", "1", "Cornstarch")
-                    else
-                        triggerEvent("Change Character", "2", "Kittygf")
-                        triggerEvent("Change Character", "1", "chris")
                     end
                 end
 
@@ -70,17 +65,11 @@ if not isStoryMode then
                     end
                     triggerEvent("Change Character", "0", characters[charNum])
                     if charNum == 3 then
-                        triggerEvent("Change Character", "2", "no-gf")
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 4 then
-                        triggerEvent("Change Character", "2", "gf")
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 5 then
-                        triggerEvent("Change Character", "2", "Nitro gf")
                         triggerEvent("Change Character", "1", "Cornstarch")
-                    else
-                        triggerEvent("Change Character", "2", "Kittygf")
-                        triggerEvent("Change Character", "1", "chris")
                     end
                 end
                 screenCenter("charName", "x")
