@@ -1,0 +1,32 @@
+{
+	"storyName": "vro what the sigma",
+	"difficulties": "Basic",
+	"hideFreeplay": false,
+	"weekBackground": "the origin",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekDD1",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Vro",
+			"no-gf",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
+	"weekName": "free shit",
+	"hiddenUntilUnlocked": true
+}
