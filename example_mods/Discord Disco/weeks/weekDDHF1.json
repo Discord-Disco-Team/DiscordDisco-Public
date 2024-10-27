@@ -3,13 +3,19 @@
 	"difficulties": "Basic",
 	"hideFreeplay": false,
 	"weekBackground": "PWEEK1",
+	"weekBefore": "weekDD1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "weekDD1",
 	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Foolish",
@@ -37,14 +43,17 @@
 				20,
 				20
 			]
+		],
+		[
+			"Vro",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hideStoryMode": false,
-	"weekName": "free shit",
-	"hiddenUntilUnlocked": true
+	"hiddenUntilUnlocked": true,
+	"weekName": "free shit"
 }
