@@ -1650,7 +1650,7 @@
 		"song": "Mic-Test",
 		"needsVoices": true,
 		"arrowSkin": "",
-		"stage": "stage",
+		"stage": "DDbgTutorial",
 		"validScore": true,
 		"speed": 2.7,
 		"bpm": 100

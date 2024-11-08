@@ -1,121 +1,121 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				112,
 				311
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				114,
 				293
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				89,
 				339
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				88,
 				314
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				103,
 				317
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				112,
 				311
 			],
-			"anim": "singLEFtmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "lMiss",
-			"indices": []
+			"anim": "singLEFtmiss",
+			"indices": [],
+			"name": "lMiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				114,
 				293
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "dMiss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "dMiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				89,
 				339
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "uMiss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "uMiss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				88,
 				314
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "rMiss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "rMiss"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				213,
 				867
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "Fly",
-			"indices": [],
-			"name": "float"
+			"fps": 24,
+			"name": "float",
+			"indices": []
 		}
 	],
 	"vocals_file": "BF",
 	"no_antialiasing": false,
 	"image": "characters/bf-discord",
 	"position": [
-		90,
+		40,
 		550
 	],
 	"healthicon": "discbf",
@@ -130,6 +130,6 @@
 		-250
 	],
 	"sing_duration": 6.1,
-	"scale": 0.9,
+	"scale": 1.2,
 	"_editor_isPlayer": true
 }

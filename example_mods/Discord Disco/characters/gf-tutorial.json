@@ -1,35 +1,36 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-43,
 				-15
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-40,
 				11
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceLeft",
+			"fps": 24,
+			"name": "idle",
 			"indices": [
 				0,
 				1,
@@ -52,17 +53,17 @@
 				18,
 				19,
 				20
-			],
-			"name": "idle"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceRight",
+			"fps": 24,
+			"name": "idle",
 			"indices": [
 				21,
 				22,
@@ -76,38 +77,37 @@
 				30,
 				31,
 				32
-			],
-			"name": "idle"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-152,
 				-8
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				-3
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
 		}
 	],
 	"vocals_file": "GF",
 	"no_antialiasing": false,
 	"image": "characters/gf-discord",
 	"position": [
-		-50,
-		220
+		20,
+		60
 	],
 	"healthicon": "gftoriel",
 	"flip_x": true,
@@ -121,6 +121,6 @@
 		70
 	],
 	"sing_duration": 6.1,
-	"scale": 1,
+	"scale": 1.2,
 	"_editor_isPlayer": false
 }

@@ -2318,7 +2318,7 @@ class PlayState extends MusicBeatState
 
 		#if ACHIEVEMENTS_ALLOWED
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
-		checkForAchievement([weekNoMiss, 'ur_bad', 'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
+		checkForAchievement([weekNoMiss,'testing', 'richrag']);
 		#end
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
@@ -2757,7 +2757,6 @@ class PlayState extends MusicBeatState
 				playerDance();
 
 			#if ACHIEVEMENTS_ALLOWED
-			else checkForAchievement(['oversinging']);
 			#end
 		}
 
@@ -3440,26 +3439,11 @@ class PlayState extends MusicBeatState
 			{
 				switch(name)
 				{
-					case 'ur_bad':
-						unlock = (ratingPercent < 0.2 && !practiceMode);
+					case 'testing':
+						unlock = (songName == 'mic-test' && !usedPractice);
 
-					case 'ur_good':
-						unlock = (ratingPercent >= 1 && !usedPractice);
-
-					case 'oversinging':
-						unlock = (boyfriend.holdTimer >= 10 && !usedPractice);
-
-					case 'hype':
-						unlock = (!boyfriendIdled && !usedPractice);
-
-					case 'two_keys':
-						unlock = (!usedPractice && keysPressed.length <= 2);
-
-					case 'toastie':
-						unlock = (!ClientPrefs.data.cacheOnGPU && !ClientPrefs.data.shaders && ClientPrefs.data.lowQuality && !ClientPrefs.data.antialiasing);
-
-					case 'debugger':
-						unlock = (songName == 'test' && !usedPractice);
+					case 'richrag':
+						unlock = (songName == 'moderator' && !usedPractice && ratingPercent >= 1);
 				}
 			}
 			else // any FC achievements, name should be "weekFileName_nomiss", e.g: "week3_nomiss";

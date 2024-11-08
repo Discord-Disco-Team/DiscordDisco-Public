@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-162,
+				-204
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/greeen-gf",
+	"position": [
+		-160,
+		290
+	],
+	"healthicon": "charles",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-10,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 2.7,
+	"_editor_isPlayer": false
+}
