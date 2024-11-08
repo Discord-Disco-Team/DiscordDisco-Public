@@ -50,6 +50,7 @@ local charColors = {
 local noteTypeColors = {
   ['Hurt Note'] = {{'ff0000','440000','000000'}}
 }
+
 function onCreatePost()
   luaDebugMode = true
   if charColors[boyfriendName] then

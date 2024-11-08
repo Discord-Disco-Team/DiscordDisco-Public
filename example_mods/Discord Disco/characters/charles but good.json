@@ -1,68 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				115,
 				-70
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				64,
 				-85
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				15,
 				17
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-2,
 				-30
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
 		},
 		{
 			"offsets": [
 				40,
 				2
 			],
-			"anim": "hey",
 			"fps": 24,
-			"name": "HEY",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "HEY"
 		},
 		{
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
 			"fps": 24,
-			"name": "Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
 		}
 	],
 	"vocals_file": "charles",
@@ -70,7 +70,7 @@
 	"image": "characters/Charles_Assets",
 	"position": [
 		50,
-		150
+		120
 	],
 	"healthicon": "charles",
 	"flip_x": false,
@@ -80,8 +80,8 @@
 		67
 	],
 	"camera_position": [
-		0,
-		50
+		-60,
+		-30
 	],
 	"sing_duration": 6.1,
 	"scale": 1,
