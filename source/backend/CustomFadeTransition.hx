@@ -21,7 +21,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length-1]];
 		var width:Int = Std.int(FlxG.width / Math.max(camera.zoom, 0.001));
 		var height:Int = Std.int(FlxG.height / Math.max(camera.zoom, 0.001));
-		transGradient = FlxGradient.createGradientFlxSprite(1, height, (isTransIn ? [0x0, FlxColor.BLACK] : [FlxColor.BLACK, 0x0]));
+		transGradient = FlxGradient.createGradientFlxSprite(1, height, (isTransIn ? [FlxColor.BLACK, 0x0] : [0x0, FlxColor.BLACK]), 1);
 		transGradient.scale.x = width;
 		transGradient.updateHitbox();
 		transGradient.scrollFactor.set();
@@ -29,16 +29,16 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		add(transGradient);
 
 		transBlack = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK);
-		transBlack.scale.set(width, height + 400);
+		transBlack.scale.set(width + 50, height + 400);
 		transBlack.updateHitbox();
 		transBlack.scrollFactor.set();
 		transBlack.screenCenter(X);
 		add(transBlack);
 
 		if(isTransIn)
-			transGradient.y = transBlack.y - transBlack.height;
+			transGradient.x = transBlack.x - transBlack.width;
 		else
-			transGradient.y = -transGradient.height;
+			transGradient.x = -transGradient.width;
 
 		super.create();
 	}
@@ -46,19 +46,19 @@ class CustomFadeTransition extends MusicBeatSubstate {
 	override function update(elapsed:Float) {
 		super.update(elapsed);
 
-		final height:Float = FlxG.height * Math.max(camera.zoom, 0.001);
-		final targetPos:Float = transGradient.height + 50 * Math.max(camera.zoom, 0.001);
+		final width:Float = FlxG.width * Math.max(camera.zoom, 0.001);
+		final targetPos:Float = transGradient.width - 2 * Math.max(camera.zoom, 0.001);
 		if(duration > 0)
-			transGradient.y += (height + targetPos) * elapsed / duration;
+			transGradient.x += (width + targetPos) * elapsed / duration;
 		else
-			transGradient.y = (targetPos) * elapsed;
+			transGradient.x = (targetPos) * elapsed;
 
 		if(isTransIn)
-			transBlack.y = transGradient.y + transGradient.height;
+			transBlack.x = transGradient.x + transGradient.width;
 		else
-			transBlack.y = transGradient.y - transBlack.height;
+			transBlack.x = transGradient.x - transBlack.width;
 
-		if(transGradient.y >= targetPos)
+		if(transGradient.x >= targetPos)
 		{
 			close();
 			if(finishCallback != null) finishCallback();
