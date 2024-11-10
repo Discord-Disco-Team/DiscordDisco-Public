@@ -25,12 +25,14 @@ typedef Achievement =
 class Achievements {
 	public static function init()
 	{
-		createAchievement('friday_night_play',		{name: "Freaky on a Friday Night", description: "Play on a Friday... Night.", hidden: true});
-		createAchievement('weekDD1_nomiss',			{name: "She Calls Me Daddy Too", description: "FC Week 1"});
-		createAchievement('weekDDb1_nomiss',		{name: "No More Tricks", description: "FC Micro-Week 1"});
-		createAchievement('weekDDHF1_nomiss',		{name: "Call Me The Hitman", description: "FC Hyperfixation-Week 1"});
-		createAchievement('richrag',				{name: "From Rags To Riches", description: "Beat Moderator with a PFC"});
-		createAchievement('testing',				{name: "Testing 1 2 3", description: "Play Mic Test"});
+		createAchievement('testing',				{name: "Testing 1 2 3", description: "You actually played the Tutorial. Wow."});
+		createAchievement('weekDD1_done',			{name: "Am I Right?", description: "Beat Week 1"});
+		createAchievement('weekDD1_nomiss',			{name: "TRUE GAYLORD", description: "FC Week 1"});
+		createAchievement('weekDDb1_done',			{name: "Urine for Trouble", description: "Beat Micro-Week 1"});
+		createAchievement('weekDDb1_nomiss',		{name: "Girl Piss", description: "FC Micro-Week 1"});
+		createAchievement('weekDDHF1_done',			{name: "Sigma", description: "Beat Hyperfixation-Week 1"});
+		createAchievement('weekDDHF1_nomiss',		{name: "Sigma 2", description: "FC Hyperfixation-Week 1"});
+		createAchievement('richrag',				{name: "From Rags To Riches", description: "Redeem yourself and beat Moderator with Perfection."});
 		
 		//dont delete this thing below
 		_originalLength = _sortID + 1;

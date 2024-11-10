@@ -2317,8 +2317,9 @@ class PlayState extends MusicBeatState
 		seenCutscene = false;
 
 		#if ACHIEVEMENTS_ALLOWED
+		var weekDone:String = WeekData.getWeekFileName() + '_done';
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
-		checkForAchievement([weekNoMiss,'testing', 'richrag']);
+		checkForAchievement([weekDone, weekNoMiss,'testing', 'richrag']);
 		#end
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
@@ -3435,7 +3436,19 @@ class PlayState extends MusicBeatState
 			if(!Achievements.exists(name)) continue;
 
 			var unlock:Bool = false;
-			if (name != WeekData.getWeekFileName() + '_nomiss') // common achievements
+			if (name == WeekData.getWeekFileName() + '_nomiss') // common achievements
+			{
+				if(isStoryMode && campaignMisses + songMisses < 1
+					&& storyPlaylist.length <= 1 && !changedDifficulty && !usedPractice)
+					unlock = true;
+			}
+			if (name == WeekData.getWeekFileName() + '_done') // common achievements
+			{
+				if(isStoryMode
+					&& storyPlaylist.length <= 1 && !changedDifficulty && !usedPractice)
+					unlock = true;
+			}
+			else // any FC achievements, name should be "weekFileName_nomiss", e.g: "week3_nomiss";
 			{
 				switch(name)
 				{
@@ -3445,12 +3458,6 @@ class PlayState extends MusicBeatState
 					case 'richrag':
 						unlock = (songName == 'moderator' && !usedPractice && ratingPercent >= 1);
 				}
-			}
-			else // any FC achievements, name should be "weekFileName_nomiss", e.g: "week3_nomiss";
-			{
-				if(isStoryMode && campaignMisses + songMisses < 1 && Difficulty.getString().toUpperCase() == 'HARD'
-					&& storyPlaylist.length <= 1 && !changedDifficulty && !usedPractice)
-					unlock = true;
 			}
 
 			if(unlock) Achievements.unlock(name);
