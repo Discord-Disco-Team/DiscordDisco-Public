@@ -2319,7 +2319,7 @@ class PlayState extends MusicBeatState
 		#if ACHIEVEMENTS_ALLOWED
 		var weekDone:String = WeekData.getWeekFileName() + '_done';
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
-		checkForAchievement([weekDone, weekNoMiss,'testing', 'richrag']);
+		checkForAchievement([weekDone, weekNoMiss,'testing', 'richrag', 'ur_bad', 'ur_good', 'two_keys', 'toastie', 'blocky', 'ruin']);
 		#end
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
@@ -2758,6 +2758,7 @@ class PlayState extends MusicBeatState
 				playerDance();
 
 			#if ACHIEVEMENTS_ALLOWED
+			else checkForAcfchecievement(['oversinging']);
 			#end
 		}
 
@@ -3452,11 +3453,32 @@ class PlayState extends MusicBeatState
 			{
 				switch(name)
 				{
+					case 'blocky':
+						unlock = (songName == 'minecraft' && !usedPractice);
+
+					case 'ruin':
+						unlock = (songName == 'ruined' && !usedPractice);
+					
 					case 'testing':
 						unlock = (songName == 'mic-test' && !usedPractice);
 
 					case 'richrag':
 						unlock = (songName == 'moderator' && !usedPractice && ratingPercent >= 1);
+
+					case 'ur_bad':
+						unlock = (ratingPercent < 0.2 && !practiceMode);
+
+					case 'ur_good':
+						unlock = (ratingPercent >= 1 && !usedPractice);
+
+					case 'oversinging':
+						unlock = (boyfriend.holdTimer >= 10 && !usedPractice);
+
+					case 'two_keys':
+						unlock = (!usedPractice && keysPressed.length <= 2);
+
+					case 'toastie':
+						unlock = (!ClientPrefs.data.cacheOnGPU && !ClientPrefs.data.shaders && ClientPrefs.data.lowQuality && !ClientPrefs.data.antialiasing);
 				}
 			}
 

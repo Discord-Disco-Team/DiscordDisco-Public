@@ -25,15 +25,23 @@ typedef Achievement =
 class Achievements {
 	public static function init()
 	{
-		createAchievement('testing',				{name: "Testing 1 2 3", description: "You actually played the Tutorial. Wow."});
+		createAchievement('friday_night_play',		{name: "Freaky on a Friday Night", description: "Play on a Friday... Night.", hidden: true});
+		createAchievement('testing',				{name: "Testing 1 2 1 2", description: "You actually played the Tutorial. Wow."});
 		createAchievement('weekDD1_done',			{name: "Am I Right?", description: "Beat Week 1"});
 		createAchievement('weekDD1_nomiss',			{name: "TRUE GAYLORD", description: "FC Week 1"});
-		createAchievement('weekDDb1_done',			{name: "Urine for Trouble", description: "Beat Micro-Week 1"});
+		createAchievement('weekDDb1_done',			{name: "Urine For Trouble", description: "Beat Micro-Week 1"});
 		createAchievement('weekDDb1_nomiss',		{name: "Girl Piss", description: "FC Micro-Week 1"});
-		createAchievement('weekDDHF1_done',			{name: "Sigma", description: "Beat Hyperfixation-Week 1"});
-		createAchievement('weekDDHF1_nomiss',		{name: "Sigma 2", description: "FC Hyperfixation-Week 1"});
+		createAchievement('weekDDHF1_done',			{name: "On The Spectrum", description: "Beat Hyperfixation-Week 1"});
+		createAchievement('weekDDHF1_nomiss',		{name: "Neurodivergency", description: "FC Hyperfixation-Week 1"});
+		createAchievement('blocky',					{name: "I... Am Steve... !", description: "Discover Minecraft (the song not the game)"});
+		createAchievement('ruin',					{name: "GET OFF OF IT!!!", description: "Discover Ruined"});
 		createAchievement('richrag',				{name: "From Rags To Riches", description: "Redeem yourself and beat Moderator with Perfection."});
-		
+		createAchievement('ur_good',				{name: "Completionist", description: "Complete a Song with a rating of 100%."});
+		createAchievement('ur_bad',					{name: "What a Discord Disaster!", description: "Complete a Song with a rating lower than 20%."});
+		createAchievement('two_keys',				{name: "Just the Two of Us", description: "Finish a Song pressing only two keys."});
+		createAchievement('oversinging',			{name: "Oversinging Much...?", description: "Sing for 10 seconds without going back to Idle."});
+		createAchievement('toastie',				{name: "Luigifan122 PC", description: "Have you tried to run the game on a toaster?"});
+
 		//dont delete this thing below
 		_originalLength = _sortID + 1;
 	}
