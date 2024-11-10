@@ -2758,7 +2758,7 @@ class PlayState extends MusicBeatState
 				playerDance();
 
 			#if ACHIEVEMENTS_ALLOWED
-			else checkForAcfchecievement(['oversinging']);
+			else checkForAchievement(['oversinging']);
 			#end
 		}
 
