@@ -3,14 +3,18 @@
 	"difficulties": "Basic",
 	"hideFreeplay": false,
 	"weekBackground": "Dweek1",
-	"weekBefore": "weekDD1gaylord",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": false,
-	"hideStoryMode": true,
+	"weekBefore": "weekDD1gaylord",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Gaylord",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "Disco2"
+	"hideStoryMode": true,
+	"weekName": "Disco2",
+	"hiddenUntilUnlocked": true
 }

@@ -3,18 +3,14 @@
 	"difficulties": "Basic",
 	"hideFreeplay": false,
 	"weekBackground": "Mweek1",
+	"weekBefore": "WeekDDb1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "WeekDDb1",
-	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Gocky",
@@ -35,7 +31,11 @@
 			]
 		]
 	],
-	"hideStoryMode": true,
-	"hiddenUntilUnlocked": true,
-	"weekName": "Disco"
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Disco",
+	"hiddenUntilUnlocked": true
 }

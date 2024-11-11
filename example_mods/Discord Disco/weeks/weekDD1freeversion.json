@@ -3,18 +3,14 @@
 	"difficulties": "Basic",
 	"hideFreeplay": false,
 	"weekBackground": "Dweek1",
+	"weekBefore": "weekDD1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "weekDD1",
-	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Stainless",
@@ -53,7 +49,11 @@
 			]
 		]
 	],
-	"hideStoryMode": true,
-	"weekName": "Disco",
-	"hiddenUntilUnlocked": true
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Disco"
 }
