@@ -16,19 +16,19 @@ function onCreate()
 
 
     makeLuaSprite("bushA", "NeonStage/Luigibush1", -300, 500)
-    setScrollFactor("bushA", 0.65, 0.65)
+    setScrollFactor("bushA", 1, 1)
     scaleObject("bushA", 0.8, 0.8, true)
 
     makeLuaSprite("bushB", "NeonStage/Luigibush2", 790, 580)
-    setScrollFactor("bushB", 0.65, 0.65)
+    setScrollFactor("bushB", 1, 1)
     scaleObject("bushB", 0.8, 0.8, true)
 
     makeLuaSprite("bushC", "NeonStage/Luigibush1", 1050, 510)
-    setScrollFactor("bushC", 0.65, 0.65)
+    setScrollFactor("bushC", 1, 1)
     scaleObject("bushC", 1.0, 1.0, true)
 
     makeLuaSprite("bushD", "NeonStage/Luigibush2", 90, 630)
-    setScrollFactor("bushD", 0.7, 0.7)
+    setScrollFactor("bushD", 1, 1)
     scaleObject("bushD", 1.0, 1.0, true)
 
 
@@ -56,9 +56,9 @@ function onCreate()
     scaleObject("boxE", 1.0, 1.0, true)
 
 
-    makeLuaSprite("floor", "NeonStage/Luigifloor", -4400, -2700)
-    setScrollFactor("floor", 1.15, 1.15)
-    scaleObject("floor", 5, 3, true)
+    makeLuaSprite("floor", "NeonStage/Luigifloor", -1600, -1400)
+    setScrollFactor("floor", 1, 1)
+    scaleObject("floor", 2, 2, true)
     
     addLuaSprite("wall", false)
     addLuaSprite("wallagain", false)

@@ -1,14 +1,14 @@
 {
 	"storyName": "TRICKS N' TREATS",
 	"difficulties": "Basic",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "PWEEK1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "weekDD1",
+	"weekBefore": "weekDDHF1",
 	"startUnlocked": false,
 	"songs": [
 		[
@@ -53,7 +53,7 @@
 		"",
 		""
 	],
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"weekName": "free shit",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": true
 }

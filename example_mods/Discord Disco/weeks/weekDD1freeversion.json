@@ -8,8 +8,8 @@
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
-	"startUnlocked": true,
+	"weekBefore": "weekDD1",
+	"startUnlocked": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -44,24 +44,16 @@
 			]
 		],
 		[
-			"Gaylord",
-			"gay",
-			[
-				60,
-				60,
-				195
-			]
-		],
-		[
 			"Moderator",
 			"cornnormal",
 			[
-				120,
-				120,
+				60,
+				60,
 				195
 			]
 		]
 	],
 	"hideStoryMode": true,
-	"weekName": "Disco"
+	"weekName": "Disco",
+	"hiddenUntilUnlocked": true
 }

@@ -1,14 +1,14 @@
 {
 	"storyName": "Musician Monarchy",
 	"difficulties": "Basic",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "Mweek1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "WeekDD1",
+	"weekBefore": "WeekDDb1",
 	"startUnlocked": false,
 	"weekCharacters": [
 		"",
@@ -35,6 +35,7 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": true,
 	"weekName": "Disco"
 }
