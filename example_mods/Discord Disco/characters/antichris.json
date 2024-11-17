@@ -1,67 +1,67 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				130,
 				266
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				83,
 				236
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				134,
 				328
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				15,
+				69,
 				301
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				107,
 				319
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		}
 	],
-	"vocals_file": "",
+	"vocals_file": "Anti",
 	"no_antialiasing": false,
 	"image": "characters/gay-lord",
 	"position": [
 		30,
-		330
+		470
 	],
 	"healthicon": "gay",
 	"flip_x": false,
@@ -72,7 +72,7 @@
 	],
 	"camera_position": [
 		-50,
-		-210
+		-190
 	],
 	"sing_duration": 6.1,
 	"scale": 1,
