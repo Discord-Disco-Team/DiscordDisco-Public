@@ -2319,7 +2319,7 @@ class PlayState extends MusicBeatState
 		#if ACHIEVEMENTS_ALLOWED
 		var weekDone:String = WeekData.getWeekFileName() + '_done';
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
-		checkForAchievement([weekDone, weekNoMiss,'testing', 'richrag', 'ur_bad', 'ur_good', 'two_keys', 'toastie', 'blocky', 'ruin']);
+		checkForAchievement([weekDone, weekNoMiss,'testing', 'richrag', 'ur_bad', 'ur_good', 'two_keys', 'toastie', 'blocky', 'ruin', 'oversinging']);
 		#end
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
