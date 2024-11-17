@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				135,
-				-133
+				130,
+				266
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				82,
-				-159
+				83,
+				236
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				150,
-				-70
+				134,
+				328
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				30,
-				-97
+				15,
+				301
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				120,
-				-80
+				107,
+				319
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -56,12 +56,12 @@
 			"indices": []
 		}
 	],
-	"vocals_file": "Anti",
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/gay-lord",
 	"position": [
-		40,
-		70
+		30,
+		330
 	],
 	"healthicon": "gay",
 	"flip_x": false,
@@ -71,10 +71,10 @@
 		240
 	],
 	"camera_position": [
-		-110,
-		150
+		-50,
+		-210
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1,
 	"_editor_isPlayer": false
 }
