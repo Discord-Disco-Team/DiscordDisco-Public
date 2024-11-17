@@ -54,6 +54,8 @@ if not isStoryMode then
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "1", "Cornstarch")
+                    else
+                        triggerEvent("Change Character", "1", "chris")
                     end
                 end
 
@@ -70,6 +72,8 @@ if not isStoryMode then
                         triggerEvent("Change Character", "1", "chris")
                     elseif charNum == 5 then
                         triggerEvent("Change Character", "1", "Cornstarch")
+                    else
+                        triggerEvent("Change Character", "1", "chris")
                     end
                 end
                 screenCenter("charName", "x")
