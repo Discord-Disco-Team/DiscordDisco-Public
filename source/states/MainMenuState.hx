@@ -19,7 +19,8 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		'options'
+		'options',
+		'gallery'
 	];
 
 	var magenta:FlxSprite;
@@ -157,6 +158,7 @@ class MainMenuState extends MusicBeatState
 						{
 							case 'story_mode':
 								MusicBeatState.switchState(new StoryMenuState());
+							
 							case 'freeplay':
 								MusicBeatState.switchState(new FreeplayState());
 
@@ -172,6 +174,7 @@ class MainMenuState extends MusicBeatState
 
 							case 'credits':
 								MusicBeatState.switchState(new CreditsState());
+							
 							case 'options':
 								MusicBeatState.switchState(new OptionsState());
 								OptionsState.onPlayState = false;
@@ -181,6 +184,9 @@ class MainMenuState extends MusicBeatState
 									PlayState.SONG.splashSkin = null;
 									PlayState.stageUI = 'normal';
 								}
+							
+							case 'gallery':
+								MusicBeatState.switchState(new GalleryState());
 						}
 					});
 
