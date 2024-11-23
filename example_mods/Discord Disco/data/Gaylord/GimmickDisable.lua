@@ -1,5 +1,5 @@
 function onCreate()
-    if gameGimmicks == false then
+    if gameGimmicks == true then
         removeLuaScript('funnygayscript')
     end
 end

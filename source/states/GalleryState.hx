@@ -40,7 +40,7 @@ class GalleryState extends MusicBeatState
 
     override public function create():Void
     {   
-        // FlxG.sound.playMusic(Paths.music("galleryMusic"));
+        FlxG.sound.playMusic(Paths.music("galleryMusic"));
 
         var jsonData:String = File.getContent("assets/shared/images/gallery/gallery.json");
         var imageData:Array<ImageData> = haxe.Json.parse(jsonData);
@@ -111,7 +111,7 @@ class GalleryState extends MusicBeatState
             allowInputs = false;
             FlxG.sound.play(Paths.sound('cancelMenu'));
             MusicBeatState.switchState(new MainMenuState());
-            // FlxG.sound.playMusic(Paths.music("freakyMenu"));
+            FlxG.sound.playMusic(Paths.music('freakyMenu'));
         }
     
         if (controls.ACCEPT && allowInputs)
