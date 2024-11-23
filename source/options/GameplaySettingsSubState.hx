@@ -7,6 +7,12 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		title = 'Gameplay Settings';
 		rpcTitle = 'Gameplay Settings Menu'; //for Discord Rich Presence
 
+		var option:Option = new Option('Disable Gameplay Gimmicks (For Babies)',
+			'If checked, Most gimmicks will either be disabled or do nothing',
+			'gameGimmicks', //Save data variable name
+			'bool'); //Variable type
+		addOption(option);
+		
 		//I'd suggest using "Downscroll" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Downscroll', //Name
 			'If checked, notes go Down instead of Up, simple enough.', //Description

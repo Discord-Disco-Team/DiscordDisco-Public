@@ -1,6 +1,8 @@
 function opponentNoteHit()
-    health = getProperty('health')
-    if getProperty('health') > 0 then
-        setProperty('health', health -0.015);
+    if gameGimmicks == false then
+        health = getProperty('health')
+        if getProperty('health') > 0.5 then
+            setProperty('health', health -0.01);
+        end
     end
 end

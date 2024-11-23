@@ -12,10 +12,12 @@ end
 
 function badNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == 'Iron Notes' then
-		setProperty('health', getProperty('health')-0.75);
-		characterPlayAnim('boyfriend', 'hurt', true);
-		setProperty('boyfriend.specialAnim', true);
-		ghostmisses = ghostmisses + 1;
-		ghostmisses = ghostmisses + 1;
+		if gameGimmicks == false then
+			setProperty('health', getProperty('health')-0.75);
+			characterPlayAnim('boyfriend', 'hurt', true);
+			setProperty('boyfriend.specialAnim', true);
+			ghostmisses = ghostmisses + 1;
+			ghostmisses = ghostmisses + 1;
+		end
 	end
 end
