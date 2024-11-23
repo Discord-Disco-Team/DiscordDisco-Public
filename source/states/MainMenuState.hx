@@ -18,9 +18,9 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
+		'gallery',
 		'credits',
-		'options',
-		'gallery'
+		'options'
 	];
 
 	var magenta:FlxSprite;
