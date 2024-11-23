@@ -480,7 +480,7 @@ class FreeplayState extends MusicBeatState
 			});
 		}
 
-		// selector.y = (70 * curSelected) + 30;
+		//selector.y = (70 * curSelected) + 30;
 
 		var bullShit:Int = 0;
 
