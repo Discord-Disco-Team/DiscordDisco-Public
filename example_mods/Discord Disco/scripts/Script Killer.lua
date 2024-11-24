@@ -1,4 +1,5 @@
 function onCreate()
+  
   if songName == "Gaylord" then
     removeLuaScript('scripts/ghostNoteTrail')
   end
@@ -8,4 +9,5 @@ function onCreate()
   if songName == "Stainless-nitro" then
     removeLuaScript('scripts/ghostNoteTrail')
   end
+  
 end

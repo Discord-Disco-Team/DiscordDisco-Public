@@ -84,6 +84,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
 			menuItem.x = 100;
+			menuItem.scale.set(0.8, 0.8);
 		}
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);

@@ -22,12 +22,12 @@ end
 -- isSustainNote: If it's a hold note, can be either true or false
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == 'Ban Notes' then
-		if gameGimmicks == false then
+		--if gameGimmicks == false then
 			setProperty('health', getProperty('health')-0.75);
 			characterPlayAnim('boyfriend', 'hurt', true);
 			setProperty('boyfriend.specialAnim', true);
 			ghostmisses = ghostmisses + 1;
 			ghostmisses = ghostmisses + 1;
-		end
+		--end
 	end
 end
