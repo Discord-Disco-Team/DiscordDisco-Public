@@ -52,6 +52,12 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 
+		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.BLACK);
+		blackBarThingie.alpha = 0.5;
+		blackBarThingie.scrollFactor.set(0, 0);
+		blackBarThingie.x = 80;
+		add(blackBarThingie);
+
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
@@ -70,15 +76,15 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 140) + offset);
+			var offset:Float = 15 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(0, (i * 160) + offset);
 			menuItem.antialiasing = ClientPrefs.data.antialiasing;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItems.add(menuItem);
-			var scr:Float = (optionShit.length - 4) * 0.135;
+			var scr:Float = (optionShit.length - 4) * 0.2;
 			if (optionShit.length < 6)
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
