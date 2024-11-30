@@ -18,36 +18,43 @@ local deathTxtText = {
 
 local bfHasDied = false
 function onCreate()
-makeLuaText('deathTxt', deathTxtText[getRandomInt(1,#deathTxtText)], 696, 300, 300)
-setTextAlignment('deathTxt', 'center')
-setTextSize('deathTxt', 75)
-setTextColor('deathTxt', 'FF0000')
-setObjectCamera('deathTxt', 'HUD')
-addLuaText('deathTxt')
-setProperty('deathTxt.alpha', 0)
+    if not isStoryMode then
+    makeLuaText('deathTxt', deathTxtText[getRandomInt(1,#deathTxtText)], 696, 300, 300)
+    setTextAlignment('deathTxt', 'center')
+    setTextSize('deathTxt', 75)
+    setTextColor('deathTxt', 'FF0000')
+    setObjectCamera('deathTxt', 'HUD')
+    addLuaText('deathTxt')
+    setProperty('deathTxt.alpha', 0)
+    end
 end
+
 function onGameOver()
-bfHasDied = true
-if getProperty('playbackRate') < 0.001 then
-setProperty('playbackRate', 1)
-return Function_Continue
-end
-return Function_Stop
-end
+    if not isStoryMode then
+        bfHasDied = true
+        
+        if getProperty('playbackRate') < 0.001 then
+        setProperty('playbackRate', 1)
+        return Function_Continue
+        end
+        return Function_Stop
+        end
+    end
+
 function onUpdatePost()
-if bfHasDied then
-setProperty('deathTxt.alpha', getProperty('deathTxt.alpha')+0.001)
-setProperty('playbackRate', getProperty('playbackRate')-0.001)
-setProperty('dad.alpha', getProperty('dad.alpha')-0.001)
-setProperty('cameraFollowPos.x', getProperty('boyfriend.x'))
-setProperty('gf.alpha', getProperty('gf.alpha')-0.001)
-setProperty('camera.zoom', getProperty('camera.zoom')+0.001)
-characterPlayAnim('boyfriend', animationToPlay, shouldBeForced)
-for i = 0, getProperty('notes.length')-1 do
-if getPropertyFromGroup('notes', i, 'mustPress') then
-setPropertyFromGroup('notes', i, 'x', getPropertyFromGroup('notes', i, 'x')+math.random(-20,20)*(getProperty('deathTxt.alpha')*5))
-setPropertyFromGroup('notes', i, 'ignoreNote', true)
-setPropertyFromGroup('notes', i, 'canBeHit', true)
+    if not isStoryMode and bfHasDied then
+    setProperty('deathTxt.alpha', getProperty('deathTxt.alpha')+0.001)
+    setProperty('playbackRate', getProperty('playbackRate')-0.001)
+    setProperty('dad.alpha', getProperty('dad.alpha')-0.001)
+    setProperty('cameraFollowPos.x', getProperty('boyfriend.x'))
+    setProperty('gf.alpha', getProperty('gf.alpha')-0.001)
+    setProperty('camera.zoom', getProperty('camera.zoom')+0.001)
+    characterPlayAnim('boyfriend', animationToPlay, shouldBeForced)
+    for i = 0, getProperty('notes.length')-1 do
+    if getPropertyFromGroup('notes', i, 'mustPress') then
+    setPropertyFromGroup('notes', i, 'x', getPropertyFromGroup('notes', i, 'x')+math.random(-20,20)*(getProperty('deathTxt.alpha')*5))
+    setPropertyFromGroup('notes', i, 'ignoreNote', true)
+    setPropertyFromGroup('notes', i, 'canBeHit', true)
 end
 end
 end
