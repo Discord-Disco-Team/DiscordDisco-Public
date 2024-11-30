@@ -3,13 +3,19 @@
 	"difficulties": "Basic",
 	"hideFreeplay": true,
 	"weekBackground": "PWEEK1",
+	"weekBefore": "weekDD1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "weekDD1",
 	"startUnlocked": false,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Foolish",
@@ -30,7 +36,7 @@
 			]
 		],
 		[
-			"To-Be-Honest",
+			"kaprosuchus",
 			"Scramblo",
 			[
 				20,
@@ -39,21 +45,24 @@
 			]
 		],
 		[
-			"Hey-you",
+			"To-Be-Honest",
 			"dad",
 			[
 				55,
 				55,
 				55
 			]
+		],
+		[
+			"Hey-you",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hideStoryMode": false,
-	"weekName": "free shit",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "free shit"
 }
