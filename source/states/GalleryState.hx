@@ -23,6 +23,7 @@ class GalleryState extends MusicBeatState
     var imageTitle:Array<String>;
     var linkOpen:Array<String>;
     var descriptionText:FlxText;
+    var controlsText:FlxText;
     var tvShader:FlxRuntimeShader;
 
     var currentIndex:Int = 0;
@@ -84,6 +85,13 @@ class GalleryState extends MusicBeatState
         descriptionText.y += 275;
         descriptionText.setFormat(Paths.font("vcr.ttf"), 32);
         add(descriptionText);
+
+        controlsText = new FlxText(50, -100, FlxG.width - 100, "Left and Right to move, Up and Down to move 3x, esc to exit");
+        controlsText.setFormat("vcr.ttf", 15, 0xFFFF00FF, "left");
+        controlsText.screenCenter();
+        controlsText.y += 325;
+        controlsText.setFormat(Paths.font("vcr.ttf"), 32);
+        add(controlsText);
     
         titleText = new FlxText(50, 50, FlxG.width - 100, imageTitle[currentIndex]);
         titleText.screenCenter(X);
@@ -103,6 +111,11 @@ class GalleryState extends MusicBeatState
 
         if ((controls.UI_LEFT_P || controls.UI_RIGHT_P) && allowInputs) {
             changeSelection(controls.UI_LEFT_P ? -1 : 1);
+            FlxG.sound.play(Paths.sound("scrollMenu"));
+        }
+
+        if ((controls.UI_DOWN_P || controls.UI_UP_P) && allowInputs) {
+            changeSelection(controls.UI_DOWN_P ? -3 : 3);
             FlxG.sound.play(Paths.sound("scrollMenu"));
         }
     
