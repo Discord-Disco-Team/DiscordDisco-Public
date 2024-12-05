@@ -21,6 +21,13 @@ import states.StoryMenuState;
 import states.OutdatedState;
 import states.MainMenuState;
 
+#if VIDEOS_ALLOWED
+#if (hxCodec >= "3.0.0") import hxcodec.flixel.FlxVideo as VideoHandler;
+#elseif (hxCodec >= "2.6.1") import hxcodec.VideoHandler as VideoHandler;
+#elseif (hxCodec == "2.6.0") import VideoHandler;
+#else import vlc.MP4Handler as VideoHandler; #end
+#end
+
 typedef TitleData =
 {
 	titlex:Float,
@@ -163,13 +170,14 @@ class TitleState extends MusicBeatState
 		} else {
 			if (initialized)
 				startIntro();
-			else
-			{
-				new FlxTimer().start(1, function(tmr:FlxTimer)
-				{
-					startIntro();
-				});
-			}
+			   else
+			   {
+				   new FlxTimer().start(1, function(tmr:FlxTimer)
+				   {
+					   startVideo('intro');
+					   trace('starting video...');
+				   });
+			   }
 		}
 		#end
 	}
@@ -309,14 +317,56 @@ class TitleState extends MusicBeatState
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = ClientPrefs.data.antialiasing;
 
-		if (initialized)
-			skipIntro();
+	if (initialized)
+		skipIntro();
 		else
 			initialized = true;
 
 		Paths.clearUnusedMemory();
 		// credGroup.add(credTextShit);
 	}
+	
+		public function startVideo(name:String)
+			{
+				#if VIDEOS_ALLOWED
+				var filepath:String = Paths.video("intro");
+				#if sys
+				if(!FileSystem.exists(filepath))
+				#else
+				if(!OpenFlAssets.exists(filepath))
+				#end
+				{
+					FlxG.log.warn('Couldnt find video file: ' + name);
+					startIntro();
+					initialized = true;
+					return;
+				}
+				var video:VideoHandler = new VideoHandler();
+					#if (hxCodec >= "3.0.0")
+					// Recent versions
+					video.play(filepath);
+					video.onEndReached.add(function() // REMOVE THE SPACE BETWEEN on, Reached AND End!!!!!!
+					{
+						video.dispose();
+						startIntro();
+						initialized = true;
+						return;
+					}, true);
+					#else
+					// Older versions
+					video.playVideo(filepath);
+					video.finishCallback = function()
+					{
+						startIntro();
+						initialized = true;
+						return;
+					}
+					#end
+				#else
+				FlxG.log.warn('Platform not supported!');
+				return;
+				#end
+			}
 
 	function getIntroTextShit():Array<Array<String>>
 	{
