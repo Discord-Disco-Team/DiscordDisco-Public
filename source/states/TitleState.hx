@@ -534,13 +534,14 @@ class TitleState extends MusicBeatState
 		super.update(elapsed);
 	}
 
-	function createCoolText(textArray:Array<String>, ?offset:Float = 0)
+	function createCoolText(textArray:Array<String>, ?offsetYord:Float = 0, ?offsetXord:Float = 0)
 	{
 		for (i in 0...textArray.length)
 		{
 			var money:Alphabet = new Alphabet(0, 0, textArray[i], true);
 			money.screenCenter(X);
-			money.y += (i * 60) + 200 + offset;
+			money.y += (i * 60) + 200 + offsetYord;
+			money.x += offsetXord;
 			if(credGroup != null && textGroup != null) {
 				credGroup.add(money);
 				textGroup.add(money);
@@ -595,27 +596,28 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 40);
+					createCoolText(['Brought to you by'], 40);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['Luigifan122', '', 'NinaNorthern'], 0, 300);
+					createCoolText(['FurretTophat', '', 'NiceSD'], 0, -300);
 					#end
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('bums', 40);
+					addMoreText('bums', 40);
 					#else
-					addMoreText('present');
+					addMoreText('present', -100);
 					#end
 				case 5:
 					deleteCoolText();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['Not associated', 'with'], -40, 0);
 					#else
-					createCoolText(['In association', 'with'], -40);
+					createCoolText(['Not associated with'], -40, 0);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('Discord', -40);
 					ngSpr.visible = true;
 				case 9:
 					deleteCoolText();
@@ -627,11 +629,11 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('FNF');
 				case 15:
-					addMoreText('Night');
+					addMoreText('Discord');
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Disco'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
