@@ -1,55 +1,80 @@
 {
 	"animations": [
 		{
-			"offsets": [310, 206],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				310,
+				206
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
-			"offsets": [239, 131],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				239,
+				131
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
-			"offsets": [236, 416],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				236,
+				416
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
-			"offsets": [174, 228],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				174,
+				228
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
-			"offsets": [167, 198],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				167,
+				198
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/shade_e",
-	"position": [200, 410],
+	"position": [
+		240,
+		410
+	],
 	"healthicon": "shade e",
 	"flip_x": false,
-	"healthbar_colors": [161, 161, 161],
-	"camera_position": [-100, -230],
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		-230
+	],
 	"sing_duration": 6.1,
-	"scale": 1,
+	"scale": 0.8,
 	"_editor_isPlayer": false
 }
