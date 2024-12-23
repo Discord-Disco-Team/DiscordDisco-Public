@@ -52,17 +52,11 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 
-		var bars:FlxSprite;
-		bars = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBars"));
-        bars.screenCenter();
-		bars.scrollFactor.set(0, 0);
-        add(bars);
-
-		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.BLACK);
-		blackBarThingie.alpha = 0.5;
-		blackBarThingie.scrollFactor.set(0, 0);
-		blackBarThingie.x = 80;
-		add(blackBarThingie);
+		var barsB:FlxSprite;
+		barsB = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsBacks"));
+        barsB.screenCenter();
+		barsB.scrollFactor.set(0, 0);
+        add(barsB);
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -76,6 +70,12 @@ class MainMenuState extends MusicBeatState
 		magenta.visible = false;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
+
+		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.BLACK);
+		blackBarThingie.alpha = 0.3;
+		blackBarThingie.scrollFactor.set(0, 0);
+		blackBarThingie.x = 80;
+		add(blackBarThingie);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
@@ -98,6 +98,12 @@ class MainMenuState extends MusicBeatState
 			menuItem.x = 100;
 			menuItem.scale.set(0.8, 0.8);
 		}
+
+		var barsF:FlxSprite;
+		barsF = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsFronts"));
+        barsF.screenCenter();
+		barsF.scrollFactor.set(0, 0);
+        add(barsF);
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
