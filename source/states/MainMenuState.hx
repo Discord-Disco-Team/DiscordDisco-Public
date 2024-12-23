@@ -52,6 +52,12 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 
+		var bars:FlxSprite;
+		bars = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBars"));
+        bars.screenCenter();
+		bars.scrollFactor.set(0, 0);
+        add(bars);
+
 		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.BLACK);
 		blackBarThingie.alpha = 0.5;
 		blackBarThingie.scrollFactor.set(0, 0);
