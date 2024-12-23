@@ -54,6 +54,10 @@ local noteTypeColors = {
   ['Hurt Note'] = {{'ff0000','440000','000000'}}
 }
 
+function onGameOver()
+  setProperty("defaultCamZoom",0.6)
+end
+
 function onCreatePost()
   luaDebugMode = true
   if charColors[boyfriendName] then

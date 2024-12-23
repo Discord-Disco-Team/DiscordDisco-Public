@@ -2756,6 +2756,7 @@
 				"bpm": 110
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						91241.3793103449,
@@ -5408,11 +5409,46 @@
 					[
 						"ChangeBarSize",
 						"2",
-						"75"
+						"100"
 					],
 					[
 						"Set Cam Zoom",
-						"0.5",
+						"0.8",
+						""
+					],
+					[
+						"badapplelol",
+						"a",
+						"1"
+					],
+					[
+						"Healthbar_ByeBye",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				78413.7931034482,
+				[
+					[
+						"ChangeBarSize",
+						"4",
+						"0"
+					],
+					[
+						"badapplelol",
+						"b",
+						"1"
+					],
+					[
+						"Set Cam Zoom",
+						"0.6",
+						""
+					],
+					[
+						"Healthbar_ByeBye",
+						"0",
 						""
 					]
 				]
@@ -5421,9 +5457,9 @@
 				79448.2758620689,
 				[
 					[
-						"ChangeBarSize",
-						"4",
-						"0"
+						"Flash Camera",
+						"1",
+						""
 					]
 				]
 			],
@@ -5431,9 +5467,9 @@
 				92275.8620689655,
 				[
 					[
-						"Set Cam Zoom",
-						"0.4",
-						""
+						"Alter Visibility",
+						"camGame",
+						"false"
 					]
 				]
 			],
@@ -5443,6 +5479,21 @@
 					[
 						"Add Camera Zoom",
 						"",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.3",
+						""
+					],
+					[
+						"Alter Visibility",
+						"camGame",
+						"true"
+					],
+					[
+						"Flash Camera",
+						"1",
 						""
 					]
 				]
