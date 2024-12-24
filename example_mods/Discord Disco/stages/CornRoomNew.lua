@@ -23,6 +23,9 @@ function onCreate()
 		makeLuaSprite('Room', 'ChrisStuff/Room', -500, -310);
 		setLuaSpriteScrollFactor('Room', 1, 1);
 		scaleObject('Room', 1.1, 1.1);
+		makeLuaSprite('Roomfuck', 'ChrisStuff/Roomfuck', -500, -310);
+		setLuaSpriteScrollFactor('Roomfuck', 1, 1);
+		scaleObject('Roomfuck', 1.1, 1.1);
 		makeLuaSprite('Chair', 'ChrisStuff/Chair', -1750, -100);
 		setLuaSpriteScrollFactor('Chair', 1.0, 1.0);
 		scaleObject('Chair', 1, 1);
@@ -70,9 +73,17 @@ function onCreate()
 			addLuaSprite('Room', false);
 
 	end
+	endLoop = false
 end
 
 function onStepHit()
+	
+		if endLoop == false and misses >= 10 then
+			removeLuaSprite('Room', false);
+			addLuaSprite('Roomfuck', false);
+			endloop = true
+		end
+
 		if curStep == 688 then
 			addLuaSprite('Overlay', true);	
 

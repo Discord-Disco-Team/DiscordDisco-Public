@@ -2,75 +2,66 @@
 	"animations": [
 		{
 			"offsets": [
-				115,
-				-70
+				641,
+				534
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 12,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Left"
+			"name": "charles left"
 		},
 		{
 			"offsets": [
-				64,
-				-85
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
-		},
-		{
-			"offsets": [
-				15,
-				17
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Up"
-		},
-		{
-			"offsets": [
-				-2,
-				-30
+				641,
+				534
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Right"
+			"name": "charles right"
 		},
 		{
 			"offsets": [
-				40,
-				2
+				641,
+				534
 			],
+			"loop": false,
 			"fps": 24,
-			"anim": "hey",
+			"anim": "singUP",
 			"indices": [],
-			"name": "HEY"
+			"name": "charles up"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				641,
+				534
 			],
+			"loop": false,
 			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "charles down"
+		},
+		{
+			"offsets": [
+				641,
+				534
+			],
+			"loop": false,
+			"fps": 12,
 			"anim": "idle",
 			"indices": [],
-			"name": "Idle"
+			"name": "charles idle"
 		}
 	],
 	"vocals_file": "charles",
 	"no_antialiasing": false,
-	"image": "characters/charles",
+	"image": "characters/Charles",
 	"position": [
 		50,
-		120
+		0
 	],
 	"healthicon": "charles",
 	"flip_x": false,
@@ -80,10 +71,10 @@
 		67
 	],
 	"camera_position": [
-		-60,
+		-110,
 		-30
 	],
 	"sing_duration": 6.1,
-	"scale": 1,
+	"scale": 0.4,
 	"_editor_isPlayer": false
 }
