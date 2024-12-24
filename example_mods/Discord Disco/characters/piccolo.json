@@ -63,12 +63,12 @@
 		0,
 		0
 	],
-	"healthicon": "face",
+	"healthicon": "Piccolo",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		87,
+		204,
+		1
 	],
 	"camera_position": [
 		-470,

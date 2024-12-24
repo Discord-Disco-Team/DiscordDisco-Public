@@ -134,9 +134,9 @@
 	"healthicon": "Goid",
 	"flip_x": true,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		72,
+		94,
+		133
 	],
 	"camera_position": [
 		110,

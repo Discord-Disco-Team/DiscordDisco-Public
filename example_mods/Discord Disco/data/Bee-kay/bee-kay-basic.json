@@ -5024,7 +5024,158 @@
 				"bpm": 173
 			}
 		],
-		"events": [],
+		"events": [
+			[
+				97109.8265895953,
+				[
+					[
+						"goidlyrics",
+						"Do",
+						"11"
+					]
+				]
+			],
+			[
+				97283.2369942196,
+				[
+					[
+						"goidlyrics",
+						"Do you",
+						"11"
+					]
+				]
+			],
+			[
+				97456.6473988439,
+				[
+					[
+						"goidlyrics",
+						"Do you e",
+						"11"
+					]
+				]
+			],
+			[
+				97630.0578034682,
+				[
+					[
+						"goidlyrics",
+						"Do you even",
+						"11"
+					]
+				]
+			],
+			[
+				97803.4682080925,
+				[
+					[
+						"goidlyrics",
+						"Do you even need",
+						"11"
+					]
+				]
+			],
+			[
+				97976.8786127167,
+				[
+					[
+						"goidlyrics",
+						"Do you even need to",
+						"11"
+					]
+				]
+			],
+			[
+				98150.289017341,
+				[
+					[
+						"goidlyrics",
+						"Do you even need to eat",
+						"11"
+					]
+				]
+			],
+			[
+				98323.6994219653,
+				[
+					[
+						"goidlyrics",
+						"Do you even need to eat foo-",
+						"11"
+					]
+				]
+			],
+			[
+				98497.1098265896,
+				[
+					[
+						"piccololyrics",
+						"Just",
+						"11"
+					]
+				]
+			],
+			[
+				98757.225433526,
+				[
+					[
+						"piccololyrics",
+						"Just put",
+						"11"
+					]
+				]
+			],
+			[
+				98843.9306358381,
+				[
+					[
+						"piccololyrics",
+						"Just put the",
+						"11"
+					]
+				]
+			],
+			[
+				99017.3410404624,
+				[
+					[
+						"piccololyrics",
+						"Just put the fries",
+						"11"
+					]
+				]
+			],
+			[
+				99277.4566473988,
+				[
+					[
+						"piccololyrics",
+						"Just put the fries in",
+						"11"
+					]
+				]
+			],
+			[
+				99364.1618497109,
+				[
+					[
+						"piccololyrics",
+						"Just put the fries in the",
+						"11"
+					]
+				]
+			],
+			[
+				99450.8670520231,
+				[
+					[
+						"piccololyrics",
+						"Just put the fries in the bag",
+						"0.44"
+					]
+				]
+			]
+		],
 		"player2": "piccolo",
 		"gameOverChar": "dd-death",
 		"song": "bee-kay",
