@@ -6,7 +6,7 @@ function onEvent(name, value1, value2)
         makeLuaText('captions', 'Lyrics go here', 1000, 150, 500)
         setTextString('captions',  '' .. string)
         setTextFont('captions', 'vcr.ttf')
-        setTextColor('captions', '0xA1A1A1')
+        setTextColor('captions', '0x57CC01')
         setTextSize('captions', 30);
         addLuaText('captions')
         setObjectCamera('captions', 'other');
