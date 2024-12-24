@@ -13,7 +13,7 @@ function onEvent(name, value1, value2)
         setTextAlignment('captions', 'center')
         runTimer('lyricalTho', length, 1)
         --removeLuaText('captions', true)
-	   makeLuaSprite('image', 'Goid', 600, 400, 500);
+	   makeLuaSprite('image', 'Goid', 600, 375, 500);
 	   addLuaSprite('image', true);
 	   setObjectCamera('image', 'other');
     end
