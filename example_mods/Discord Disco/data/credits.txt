@@ -30,7 +30,6 @@ Fredeels::credit-freddy::Girlfriend Spriter::https://x.com/fredeels::ce4f28
 DD Special Thanks
 SquidBowl::credit-squid::Base Gallery Creator::https://gamebanana.com/tools/13883::ffffff
 SillyGeese::credit-geese::Character Select Script Creator::https://www.youtube.com/channel/UCyokSQHhXm_92CG2k2DzJXg::35e3de
-Andree1x::credit-andre::Go For A Perfect Creator::https://gamebanana.com/mods/448034::ffffff
 HattyVA::credit-hatty::Anti-Chris VA::https://twitter.com/HattyVA::393b4f
 DanyGZ::credit-dany::Artist::https://twitter.com/DanyTheGamer7::2287bd
 Chemax::credit-cheems::Artist / Animator::https://twitter.com/chemaxgod::14db53

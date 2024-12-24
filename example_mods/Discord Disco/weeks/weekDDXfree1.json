@@ -3,19 +3,13 @@
 	"difficulties": "Basic",
 	"hideFreeplay": false,
 	"weekBackground": "the origin",
-	"weekBefore": "weekDD1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "weekDD1",
 	"startUnlocked": true,
-	"hideStoryMode": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"songs": [
 		[
 			"Bazinga",
@@ -52,17 +46,14 @@
 				60,
 				80
 			]
-		],
-		[
-			"Catharsis",
-			"dd",
-			[
-				100,
-				100,
-				100
-			]
 		]
 	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "free shit"
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
+	"weekName": "free shit",
+	"hiddenUntilUnlocked": true
 }

@@ -9,8 +9,5 @@ function onCreate()
   if songName == "Stainless-nitro" then
     removeLuaScript('scripts/ghostNoteTrail')
   end
-  if hideHud == true or isStoryMode == true then
-    removeLuaScript('scripts/RH_Perfect')
-  end
   
 end

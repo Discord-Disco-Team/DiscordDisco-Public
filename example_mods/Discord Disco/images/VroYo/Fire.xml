@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Untitled-2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_0" x="0" y="0" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_1" x="498" y="0" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_10" x="996" y="0" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_11" x="1494" y="0" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_12" x="0" y="373" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_13" x="498" y="373" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_14" x="996" y="373" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_15" x="1494" y="373" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_16" x="0" y="746" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_17" x="498" y="746" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_18" x="996" y="746" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_19" x="1494" y="746" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_2" x="0" y="1119" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_3" x="498" y="1119" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_4" x="996" y="1119" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_5" x="1494" y="1119" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_6" x="0" y="1492" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_7" x="498" y="1492" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_8" x="996" y="1492" width="498" height="373"/>
+	<SubTexture name="f96dfb9f9d4e0b42af3888de8b9473a7_9" x="1494" y="1492" width="498" height="373"/>
+</TextureAtlas>
