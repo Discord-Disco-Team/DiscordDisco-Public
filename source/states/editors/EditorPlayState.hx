@@ -25,6 +25,7 @@ class EditorPlayState extends MusicBeatSubstate
 	var noteKillOffset:Float = 350;
 	var spawnTime:Float = 2000;
 	var startingSong:Bool = true;
+	var hideHud:Bool = false;
 
 	var playbackRate:Float = 1;
 	var vocals:FlxSound;
@@ -124,7 +125,6 @@ class EditorPlayState extends MusicBeatSubstate
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
-		scoreTxt.visible = !ClientPrefs.data.hideHud;
 		add(scoreTxt);
 		
 		dataTxt = new FlxText(10, 580, FlxG.width - 20, "Section: 0", 20);

@@ -211,10 +211,14 @@ function onUpdatePost(e)
     setProperty('iconP2.origin.y', 0);
     setProperty('iconP1.scale.x', lerp(getProperty('iconP1.scale.x'), 1, 0.25));
     setProperty('iconP2.scale.x', lerp(getProperty('iconP2.scale.x'), 1, 0.25));
-    if ratingFC == 'SFC' or ratingFC == 'GFC' or ratingFC == 'FC' or ratingFC == 'SDCB' or ratingFC == 'Clear' then
-        setTextString('scoreTxt', 'Bitrate: '..getProperty('songScore')..'  //  Ping: '..getProperty('songMisses')..'  //  Accuracy: '..(math.floor(getProperty('ratingPercent') * 10000) / 100)..'%  //  ['..ratingFC..']');
-    else
-        setTextString('scoreTxt', 'Bitrate: '..getProperty('songScore')..'  //  Ping: '..getProperty('songMisses')..'  //  Accuracy: '..(math.floor(getProperty('ratingPercent') * 10000) / 100)..'%  //  N/A');
+    if hideHud == false then
+      if ratingFC == 'SFC' or ratingFC == 'GFC' or ratingFC == 'FC' or ratingFC == 'SDCB' or ratingFC == 'Clear' then
+          setTextString('scoreTxt', 'Bitrate: '..getProperty('songScore')..'  //  Ping: '..getProperty('songMisses')..'  //  Accuracy: '..(math.floor(getProperty('ratingPercent') * 10000) / 100)..'%  //  ['..ratingFC..']');
+      else
+          setTextString('scoreTxt', 'Bitrate: '..getProperty('songScore')..'  //  Ping: '..getProperty('songMisses')..'  //  Accuracy: '..(math.floor(getProperty('ratingPercent') * 10000) / 100)..'%  //  N/A');
+      end
+    elseif hideHud == true then
+      setTextString('scoreTxt',  'Bitrate: '..getProperty('songScore')..'  //  Ping: '..getProperty('songMisses')..'');
     end
 end
 function onEndSong()

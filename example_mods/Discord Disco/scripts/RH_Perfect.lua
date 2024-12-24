@@ -1,5 +1,5 @@
 function onCreate()
-    precacheSound('Pfail')
+	precacheSound('Pfail')
 
     makeLuaSprite('Go for a Perfect', 'perfecto', 94, 4)
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="beekaygoid.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="singUP0000" x="1172" y="0" width="1172" height="933" frameX="-3" frameY="-18" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singUPmiss0000" x="0" y="933" width="1178" height="920" frameX="2" frameY="-31" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singRIGHT0000" x="2344" y="950" width="886" height="873" frameX="-165" frameY="-88" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singRIGHTmiss0000" x="3308" y="0" width="860" height="874" frameX="-194" frameY="-87" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singUPmiss0001" x="0" y="0" width="1172" height="933" frameX="-3" frameY="-18" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singRIGHT0001" x="0" y="1853" width="890" height="864" frameX="-194" frameY="-83" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singRIGHTmiss0001" x="1178" y="933" width="886" height="873" frameX="-165" frameY="-88" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singUP0001" x="2344" y="0" width="964" height="950" frameX="-101" frameY="2" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singDOWN0000" x="1560" y="2717" width="782" height="850" frameX="-123" frameY="-101" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singDOWN0001" x="890" y="1853" width="830" height="842" frameX="-111" frameY="-110" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singDOWNmiss0000" x="1720" y="1853" width="826" height="818" frameX="-98" frameY="-133" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singDOWNmiss0001" x="2342" y="2717" width="782" height="850" frameX="-123" frameY="-101" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singLEFT0000" x="3308" y="874" width="836" height="854" frameX="-48" frameY="-92" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singLEFT0001" x="0" y="2717" width="780" height="884" frameX="-104" frameY="-71" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singLEFTmiss0000" x="3308" y="1728" width="809" height="869" frameX="-74" frameY="-80" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="singLEFTmiss0001" x="780" y="2717" width="780" height="878" frameX="-104" frameY="-71" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="idle0000" x="4168" y="0" width="754" height="879" frameX="-136" frameY="-68" frameWidth="1174" frameHeight="959"/>
+	<SubTexture name="idle0001" x="4168" y="879" width="741" height="876" frameX="-138" frameY="-66" frameWidth="1174" frameHeight="959"/>
+</TextureAtlas>

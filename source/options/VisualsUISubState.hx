@@ -71,10 +71,10 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.decimals = 1;
 		addOption(option);
 
-		var option:Option = new Option('Hide HUD',
-			'If checked, hides most HUD elements.',
-			'hideHud',
-			'bool');
+		var option:Option = new Option('Reducded HUD',
+		'If checked, hides extra HUD elements.',
+		'hideHud',
+		'bool');
 		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',

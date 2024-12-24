@@ -71,8 +71,8 @@ class MainMenuState extends MusicBeatState
 		magenta.color = 0xFFfd719b;
 		add(magenta);
 
-		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.BLACK);
-		blackBarThingie.alpha = 0.3;
+		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.GREEN);
+		blackBarThingie.alpha = 0.5;
 		blackBarThingie.scrollFactor.set(0, 0);
 		blackBarThingie.x = 80;
 		add(blackBarThingie);
