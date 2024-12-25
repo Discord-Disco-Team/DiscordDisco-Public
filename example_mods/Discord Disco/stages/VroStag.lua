@@ -15,13 +15,13 @@ function onCreatePost()
         makeLuaSprite("black", "VroYo/Black", -380, -320)
 		scaleObject("black", 1.5, 1.5)
 		setScrollFactor("black", 0, 0)
-        setProperty("black.alpha", 0.2)
+        setProperty("black.alpha", 1)
 
         makeAnimatedLuaSprite("fire", "VroYo/Fire", 0, -270)
         addAnimationByPrefix("fire", "burn", "f96dfb9f9d4e0b42af3888de8b9473a7", 24, true)
 		scaleObject("fire", 5, 5)
 		setScrollFactor("fire", 0.8, 0.8)
-        setProperty("fire.alpha", 0.5)
+        setProperty("fire.alpha", 0)
 
         addLuaSprite("sky", false)
         addLuaSprite("fire", false)
@@ -32,4 +32,14 @@ end
 
 function onBeatHit()
     playAnim("fire", "burn")
+end
+
+function onStepHit()
+	if curStep == 160 then
+	doTweenAlpha('tweenblack', 'black', 0.2, 3)
+	doTweenAlpha('tweenfire', 'fire', 0.2, 35)
+end
+	if curStep == 1200 then
+	doTweenAlpha('tweenfire', 'fire', 0.5, 0)
+end
 end
