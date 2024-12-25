@@ -23,6 +23,12 @@ function onCreatePost()
 		setScrollFactor("fire", 0.8, 0.8)
         setProperty("fire.alpha", 0)
 
+        makeAnimatedLuaSprite("fire2", "VroYo/Fire", 0, -270)
+        addAnimationByPrefix("fire2", "burn", "f96dfb9f9d4e0b42af3888de8b9473a7", 24, true)
+		scaleObject("fire2", 5, 5)
+		setScrollFactor("fire2", 0.8, 0.8)
+        setProperty("fire2.alpha", 0.2)
+
         addLuaSprite("sky", false)
         addLuaSprite("fire", false)
         addLuaSprite("bars", false)
@@ -39,7 +45,10 @@ function onStepHit()
 	doTweenAlpha('tweenblack', 'black', 0.2, 3)
 	doTweenAlpha('tweenfire', 'fire', 0.2, 35)
 end
+	if curStep == 708 then
+        addLuaSprite("fire2", true)
+end
 	if curStep == 1200 then
-	doTweenAlpha('tweenfire', 'fire', 0.5, 0)
+	doTweenAlpha('tweenfire', 'fire', 0.52, 1)
 end
 end
