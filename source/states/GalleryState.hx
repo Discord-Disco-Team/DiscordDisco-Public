@@ -90,7 +90,7 @@ class GalleryState extends MusicBeatState
         controlsText.setFormat("vcr.ttf", 15, 0xFFFF00FF, "left");
         controlsText.screenCenter();
         controlsText.y += 325;
-        controlsText.setFormat(Paths.font("vcr.ttf"), 32);
+        controlsText.setFormat(Paths.font("vcr.ttf"), 22);
         add(controlsText);
     
         titleText = new FlxText(50, 50, FlxG.width - 100, imageTitle[currentIndex]);
