@@ -36,8 +36,8 @@ class Achievements {
 		createAchievement('blocky',					{name: "I... Am Steve... !", description: "Discover Minecraft (the song not the game)"});
 		createAchievement('ruin',					{name: "GET OFF OF IT!!!", description: "Discover Ruined"});
 		createAchievement('richrag',				{name: "From Rags To Riches", description: "Redeem yourself and beat Moderator with Perfection."});
-		createAchievement('ur_good',				{name: "Completionist", description: "Complete a Song with a rating of 100%."});
-		createAchievement('ur_bad',					{name: "What a Discord Disaster!", description: "Complete a Song with a rating lower than 20%."});
+		createAchievement('ur_good',				{name: "Completionist", description: "Complete a Song with a rating of 100 Percent."});
+		createAchievement('ur_bad',					{name: "What a Discord Disaster!", description: "Complete a Song with a rating lower than 20 Percent."});
 		createAchievement('two_keys',				{name: "Just the Two of Us", description: "Finish a Song pressing only two keys."});
 		createAchievement('oversinging',			{name: "Oversinging Much...?", description: "Sing for 10 seconds without going back to Idle."});
 		createAchievement('toastie',				{name: "Luigifan122 PC", description: "Have you tried to run the game on a toaster?"});
