@@ -33,6 +33,7 @@ class Achievements {
 		createAchievement('weekDDb1_nomiss',		{name: "Girl Piss", description: "FC Micro-Week 1"});
 		createAchievement('weekDDHF1_done',			{name: "On The Spectrum", description: "Beat Hyperfixation-Week 1"});
 		createAchievement('weekDDHF1_nomiss',		{name: "Neurodivergency", description: "FC Hyperfixation-Week 1"});
+		//createAchievement('ultimate',				{name: "Discord W", description: "FC Every Song", maxScore: 28, maxDecimals: 0});
 		createAchievement('blocky',					{name: "I... Am Steve... !", description: "Discover Minecraft (the song not the game)"});
 		createAchievement('ruin',					{name: "GET OFF OF IT!!!", description: "Discover Ruined"});
 		createAchievement('richrag',				{name: "From Rags To Riches", description: "Redeem yourself and beat Moderator with Perfection."});

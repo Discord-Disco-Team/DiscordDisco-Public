@@ -1,67 +1,112 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				355,
 				92
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "singLEFT",
 			"indices": [
 				1,
 				0
-			]
+			],
+			"name": "singLEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				352,
 				92
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 12,
-			"name": "idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				352,
-				92
-			],
 			"anim": "singUP",
-			"fps": 12,
-			"name": "singUP",
 			"indices": [
 				1,
 				0
-			]
+			],
+			"name": "singUP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				352,
 				92
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singDOWN",
-			"fps": 12,
-			"name": "singDOWN",
 			"indices": [
 				1,
 				0
-			]
+			],
+			"name": "singDOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				352,
 				92
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "singRIGHT",
+			"indices": [
+				1,
+				0
+			],
+			"name": "singRIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				352,
+				92
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "singLEFTmiss",
+			"indices": [
+				1,
+				0
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				352,
+				92
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "singUPmiss",
+			"indices": [
+				1,
+				0
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				352,
+				92
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "singDOWNmiss",
+			"indices": [
+				1,
+				0
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				352,
+				92
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "singRIGHTmiss",
 			"indices": [
 				1,
 				0
@@ -72,56 +117,11 @@
 				352,
 				92
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFTmiss",
-			"indices": [
-				1,
-				0
-			],
-			"name": "singLEFTmiss"
-		},
-		{
-			"offsets": [
-				352,
-				92
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [
-				1,
-				0
-			],
-			"name": "singUPmiss"
-		},
-		{
-			"offsets": [
-				352,
-				92
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [
-				1,
-				0
-			],
-			"name": "singDOWNmiss"
-		},
-		{
-			"offsets": [
-				352,
-				92
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [
-				1,
-				0
-			],
-			"name": "singRIGHTmiss"
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
 		}
 	],
 	"vocals_file": "Goid",

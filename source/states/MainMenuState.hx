@@ -52,12 +52,6 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 
-		var barsB:FlxSprite;
-		barsB = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsBacks"));
-        barsB.screenCenter();
-		barsB.scrollFactor.set(0, 0);
-        add(barsB);
-
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
@@ -70,6 +64,12 @@ class MainMenuState extends MusicBeatState
 		magenta.visible = false;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
+
+		var barsB:FlxSprite;
+		barsB = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsBacks"));
+        barsB.screenCenter();
+		barsB.scrollFactor.set(0, 0);
+        add(barsB);
 
 		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(500, FlxG.height, FlxColor.GREEN);
 		blackBarThingie.alpha = 0.5;
