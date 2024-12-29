@@ -87,23 +87,23 @@ class GalleryState extends MusicBeatState
         add(itemGroup);
     
         descriptionText = new FlxText(50, -100, FlxG.width - 100, imageDescriptions[currentIndex]);
-        descriptionText.setFormat("vcr.ttf", 25, 0xffffff, "center");
+        descriptionText.setFormat("sansman.ttf", 25, 0xffffff, "center");
         descriptionText.screenCenter();
         descriptionText.y += 275;
-        descriptionText.setFormat(Paths.font("vcr.ttf"), 32);
+        descriptionText.setFormat(Paths.font("sansman.ttf"), 32);
         add(descriptionText);
 
         controlsText = new FlxText(50, -100, FlxG.width - 100, "Left and Right to move, Up and Down to move 3x, esc to exit");
         controlsText.setFormat("vcr.ttf", 15, 0xFFFF00FF, "left");
         controlsText.screenCenter();
         controlsText.y += 325;
-        controlsText.setFormat(Paths.font("vcr.ttf"), 22);
+        controlsText.setFormat(Paths.font("vcr.ttf"), 20);
         add(controlsText);
     
         titleText = new FlxText(50, 50, FlxG.width - 100, imageTitle[currentIndex]);
         titleText.screenCenter(X);
         titleText.setFormat(null, 40, 0xffffff, "center");
-        titleText.setFormat(Paths.font("vcr.ttf"), 32);
+        titleText.setFormat(Paths.font("sansman.ttf"), 32);
         add(titleText);
     
         persistentUpdate = true;

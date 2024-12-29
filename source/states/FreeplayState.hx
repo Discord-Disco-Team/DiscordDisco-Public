@@ -292,8 +292,8 @@ class FreeplayState extends MusicBeatState
 				player.playingMusic = false;
 				player.switchPlayMusic();
 
-				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 				FlxTween.tween(FlxG.sound.music, {volume: 1}, 1);
+				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 			}
 			else 
 			{
@@ -455,7 +455,7 @@ class FreeplayState extends MusicBeatState
 	{
 		if (player.playingMusic)
 			return;
-
+		
 		_updateSongLastDifficulty();
 		if(playSound) FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
