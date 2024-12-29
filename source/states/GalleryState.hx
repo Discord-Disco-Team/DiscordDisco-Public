@@ -7,6 +7,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 
 import flixel.math.FlxMath;
 import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
 
 import flixel.addons.display.FlxRuntimeShader;
 import sys.io.File;
@@ -72,6 +73,12 @@ class GalleryState extends MusicBeatState
         background = new FlxSprite(10, 50).loadGraphic(Paths.image("gallery/ui/background"));
         background.screenCenter();
         add(background);
+
+        var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
+        grid.velocity.set(-40, 40);
+        grid.alpha = 0;
+        FlxTween.tween(grid, {alpha: 0.75}, 0.15, {ease: FlxEase.quadOut});
+        add(grid);
 
         bars = new FlxSprite(10, 50).loadGraphic(Paths.image("gallery/ui/bars"));
         bars.screenCenter();

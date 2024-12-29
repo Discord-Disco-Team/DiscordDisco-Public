@@ -53,6 +53,9 @@ local noteTypeColors = {
 
 function onGameOver()
   setProperty("defaultCamZoom",0.6)
+  if isAchievementUnlocked('hundreddead') == false and keyJustPressed('reset') == false then
+    addAchievementScore('hundreddead')
+  end
 end
 
 function onCreatePost()

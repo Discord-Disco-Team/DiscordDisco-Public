@@ -78,7 +78,7 @@ end
 
 function onStepHit()
 	
-		if endLoop == false and misses >= 10 then
+		if endLoop == false and misses >= 10 and songName == "Cracker" then
 			removeLuaSprite('Room', false);
 			addLuaSprite('Roomfuck', false);
 			endloop = true

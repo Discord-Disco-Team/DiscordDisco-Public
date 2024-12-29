@@ -42,6 +42,8 @@ class Achievements {
 		createAchievement('two_keys',				{name: "Just the Two of Us", description: "Finish a Song pressing only two keys."});
 		createAchievement('oversinging',			{name: "Oversinging Much...?", description: "Sing for 10 seconds without going back to Idle."});
 		createAchievement('toastie',				{name: "Luigifan122 PC", description: "Have you tried to run the game on a toaster?"});
+		createAchievement('neander',		    	{name: "You Fucking Neanderthal", description: "Die On Moderator"});
+		createAchievement('hundreddead',			{name: "The World’s Worst Player", description: "Die 100 times", maxScore: 100, maxDecimals: 0});
 
 		//dont delete this thing below
 		_originalLength = _sortID + 1;

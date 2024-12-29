@@ -50,7 +50,7 @@ function onUpdate(elapsed)
 end
 
 function onBeatHit()
-    if curBeat == disappearBeat then
+    if curBeat >= disappearBeat then
         removeLuaSprite("intro-notifbg", true)
         removeLuaSprite("intro-icon", true)
         removeLuaText("intro-composer", true)

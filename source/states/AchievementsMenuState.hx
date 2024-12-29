@@ -20,7 +20,7 @@ class AchievementsMenuState extends MusicBeatState
 
 	var camFollow:FlxObject;
 
-	var MAX_PER_ROW:Int = 4;
+	var MAX_PER_ROW:Int = 6;
 
 	override function create()
 	{

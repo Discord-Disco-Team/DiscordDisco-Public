@@ -9,7 +9,10 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.graphics.frames.FlxFrame;
 import flixel.group.FlxGroup;
 import flixel.input.gamepad.FlxGamepad;
+import flixel.util.FlxGradient;
 import haxe.Json;
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
 
 import openfl.Assets;
 import openfl.display.Bitmap;
@@ -53,6 +56,8 @@ class TitleState extends MusicBeatState
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var ngSpr:FlxSprite;
+	var gradient:FlxSprite;
+	var gradColor:Int;
 	
 	var titleTextColors:Array<FlxColor> = [0xFF33FFFF, 0xFF3333CC];
 	var titleTextAlphas:Array<Float> = [1, .64];
@@ -212,6 +217,39 @@ class TitleState extends MusicBeatState
 		// bg.setGraphicSize(Std.int(bg.width * 0.6));
 		// bg.updateHitbox();
 		add(bg);
+
+		var easterGegg:String = FlxG.save.data.psychDevsEasterEgg;
+		if (easterGegg == null) easterGegg = '';
+		easterGegg = easterGegg.toUpperCase();
+
+		switch(easterGegg)
+		{
+			case 'DAVEY':
+			var height:Int = Std.int(FlxG.height / Math.max(camera.zoom, 0.001));
+			var width:Int = Std.int(FlxG.width / Math.max(camera.zoom, 0.001));
+			gradient = FlxGradient.createGradientFlxSprite(1, height, [FlxColor.GREEN, 0x0]);
+			gradient.scale.x = width;
+			gradient.updateHitbox();
+			gradient.scrollFactor.set();
+			gradient.screenCenter(X);
+			add(gradient);
+			
+			default:
+			var height:Int = Std.int(FlxG.height / Math.max(camera.zoom, 0.001));
+			var width:Int = Std.int(FlxG.width / Math.max(camera.zoom, 0.001));
+			gradient = FlxGradient.createGradientFlxSprite(1, height, [FlxColor.PURPLE, 0x0]);
+			gradient.scale.x = width;
+			gradient.updateHitbox();
+			gradient.scrollFactor.set();
+			gradient.screenCenter(X);
+			add(gradient);
+		}
+
+		var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
+        grid.velocity.set(0, 30);
+        grid.alpha = 0;
+        FlxTween.tween(grid, {alpha: 0.75}, 0.15, {ease: FlxEase.quadOut});
+        add(grid);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');

@@ -9273,7 +9273,7 @@
 		"player3": null,
 		"song": "Lore",
 		"arrowSkin": "",
-		"stage": "VroStag",
+		"stage": "stage",
 		"needsVoices": true,
 		"validScore": true,
 		"bpm": 210,
