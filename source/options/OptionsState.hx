@@ -8,8 +8,16 @@ class OptionsState extends MusicBeatState
 	var options:Array<String> = ['Note Colors', 'Controls', 'Delay + Combo', 'Graphics', 'Visuals + UI', 'Gameplay'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
+	private static var curSelectedPeep:Int = 0;
 	public static var menuBG:FlxSprite;
 	public static var onPlayState:Bool = false;
+
+	var luigi:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-luigi'));
+	var screen:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-screen'));
+	var meko:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-meko'));
+	var iron:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-iron'));
+	var goob:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-goobers'));
+	var scrimblo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('dd_menu-scrimblo'));
 
 	function openSelectedSubstate(label:String) {
 		switch(label) {
@@ -40,9 +48,50 @@ class OptionsState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.color = 0xFFea71fd;
 		bg.updateHitbox();
-
 		bg.screenCenter();
 		add(bg);
+
+		luigi.antialiasing = ClientPrefs.data.antialiasing;
+		luigi.scrollFactor.set(0, 0);
+		luigi.screenCenter(X);
+		luigi.visible = false;
+		luigi.updateHitbox();
+		add(luigi);
+
+		screen.antialiasing = ClientPrefs.data.antialiasing;
+		screen.scrollFactor.set(0, 0);
+		screen.screenCenter(X);
+		screen.visible = false;
+		screen.updateHitbox();
+		add(screen);
+
+		meko.antialiasing = ClientPrefs.data.antialiasing;
+		meko.scrollFactor.set(0, 0);
+		meko.screenCenter(X);
+		meko.visible = false;
+		meko.updateHitbox();
+		add(meko);
+
+		iron.antialiasing = ClientPrefs.data.antialiasing;
+		iron.scrollFactor.set(0, 0);
+		iron.screenCenter(X);
+		iron.visible = false;
+		iron.updateHitbox();
+		add(iron);
+
+		goob.antialiasing = ClientPrefs.data.antialiasing;
+		goob.scrollFactor.set(0, 0);
+		goob.screenCenter(X);
+		goob.visible = false;
+		goob.updateHitbox();
+		add(goob);
+
+		scrimblo.antialiasing = ClientPrefs.data.antialiasing;
+		scrimblo.scrollFactor.set(0, 0);
+		scrimblo.screenCenter(X);
+		scrimblo.visible = false;
+		scrimblo.updateHitbox();
+		add(scrimblo);
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
@@ -57,8 +106,6 @@ class OptionsState extends MusicBeatState
 			grpOptions.add(optionText);
 		}
 
-		selectorRight = new Alphabet(0, 0, '>', true);
-		//add(selectorRight);
 		selectorLeft = new Alphabet(0, 0, '<', true);
 		add(selectorLeft);
 
@@ -117,10 +164,14 @@ class OptionsState extends MusicBeatState
 				item.alpha = 1;
 				selectorLeft.x = item.x + 20;
 				selectorLeft.y = item.y;
-				selectorRight.x = item.x + item.width + 15;
-				selectorRight.y = item.y;
 			}
 		}
+		luigi.visible = (0 == curSelected);
+		screen.visible = (1 == curSelected);
+		meko.visible = (2 == curSelected);
+		iron.visible = (3 == curSelected);
+		goob.visible = (4 == curSelected);
+		scrimblo.visible = (5 == curSelected);
 		FlxG.sound.play(Paths.sound('scrollMenu'));
 	}
 

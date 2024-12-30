@@ -67,6 +67,7 @@ class MainMenuState extends MusicBeatState
 
 		var barsB:FlxSprite;
 		barsB = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsBacks"));
+		barsB.antialiasing = ClientPrefs.data.antialiasing;
         barsB.screenCenter();
 		barsB.scrollFactor.set(0, 0);
         add(barsB);
@@ -101,6 +102,7 @@ class MainMenuState extends MusicBeatState
 
 		var barsF:FlxSprite;
 		barsF = new FlxSprite(10, 50).loadGraphic(Paths.image("menuBarsFronts"));
+		barsF.antialiasing = ClientPrefs.data.antialiasing;
         barsF.screenCenter();
 		barsF.scrollFactor.set(0, 0);
         add(barsF);
