@@ -75,7 +75,7 @@ class GalleryState extends MusicBeatState
         add(background);
 
         var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
-        grid.velocity.set(-40, 40);
+        grid.velocity.set(40, -40);
         grid.alpha = 0;
         FlxTween.tween(grid, {alpha: 0.75}, 0.15, {ease: FlxEase.quadOut});
         add(grid);
@@ -87,23 +87,23 @@ class GalleryState extends MusicBeatState
         add(itemGroup);
     
         descriptionText = new FlxText(50, -100, FlxG.width - 100, imageDescriptions[currentIndex]);
-        descriptionText.setFormat("sansman.ttf", 25, 0xffffff, "center");
+        descriptionText.setFormat("windows.ttf", 25, 0xffffff, "center");
         descriptionText.screenCenter();
         descriptionText.y += 275;
-        descriptionText.setFormat(Paths.font("sansman.ttf"), 32);
+        descriptionText.setFormat(Paths.font("windows.ttf"), 37);
         add(descriptionText);
 
         controlsText = new FlxText(50, -100, FlxG.width - 100, "Left and Right to move, Up and Down to move 3x, esc to exit");
         controlsText.setFormat("vcr.ttf", 15, 0xFFFF00FF, "left");
         controlsText.screenCenter();
         controlsText.y += 325;
-        controlsText.setFormat(Paths.font("vcr.ttf"), 20);
+        controlsText.setFormat(Paths.font("vcr.ttf"), 15);
         add(controlsText);
     
         titleText = new FlxText(50, 50, FlxG.width - 100, imageTitle[currentIndex]);
         titleText.screenCenter(X);
         titleText.setFormat(null, 40, 0xffffff, "center");
-        titleText.setFormat(Paths.font("sansman.ttf"), 32);
+        titleText.setFormat(Paths.font("windows.ttf"), 37);
         add(titleText);
     
         persistentUpdate = true;

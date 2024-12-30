@@ -2,7 +2,7 @@ import psychlua.LuaUtils;
 
 import hxcodec.flixel.FlxVideo;
 
-var cacheList:Array<String> = [1];
+var cacheList:Array<String> = [2];
 
 function onCreate():Void
 {

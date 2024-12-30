@@ -51,7 +51,7 @@ class AchievementsMenuState extends MusicBeatState
 		add(menuBG);
 
 		var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
-        grid.velocity.set(40, 40);
+        grid.velocity.set(60, 60);
         grid.alpha = 0;
         FlxTween.tween(grid, {alpha: 0.75}, 0.15, {ease: FlxEase.quadOut});
         add(grid);
