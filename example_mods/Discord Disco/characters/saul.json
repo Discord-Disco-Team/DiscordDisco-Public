@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				233,
+				-395
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "saul-goodman-better-call-saul_gif",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/saul",
+	"position": [
+		110,
+		-20
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-120,
+		530
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

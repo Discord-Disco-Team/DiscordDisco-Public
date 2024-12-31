@@ -1,0 +1,50 @@
+{
+	"storyName": "Quirked up white boys!",
+	"difficulties": "Basic, Nitro",
+	"hideFreeplay": false,
+	"weekBackground": "the origin",
+	"weekBefore": "weekDD1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Bewitchment",
+			"face",
+			[
+				255,
+				255,
+				80
+			]
+		],
+		[
+			"Washed",
+			"face",
+			[
+				255,
+				255,
+				80
+			]
+		],
+		[
+			"Goated",
+			"face",
+			[
+				255,
+				255,
+				80
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Weekdd3"
+}

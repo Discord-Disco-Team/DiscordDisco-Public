@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				-19
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MR.L Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				65,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "MR.L Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				-26
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "MR.L Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				-34
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MR.L Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				91
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MR.L Up",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/MR.L",
+	"position": [
+		-270,
+		-380
+	],
+	"healthicon": "luigifan",
+	"flip_x": false,
+	"healthbar_colors": [
+		19,
+		147,
+		130
+	],
+	"camera_position": [
+		200,
+		460
+	],
+	"sing_duration": 4,
+	"scale": 0.4,
+	"_editor_isPlayer": false
+}
