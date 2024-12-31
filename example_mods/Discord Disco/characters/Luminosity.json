@@ -1,125 +1,125 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-58,
 				-123
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 12,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-40,
 				-120
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 12,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-42,
 				-126
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 12,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-61,
 				-128
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 4,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-32,
 				-131
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 12,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-38,
 				-132
 			],
-			"indices": [],
-			"fps": 8,
 			"anim": "wave",
-			"loop": true,
-			"name": "wave"
+			"fps": 8,
+			"name": "wave",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-48,
 				-130
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "hey",
-			"loop": false,
-			"name": "hey"
+			"fps": 12,
+			"name": "hey",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-58,
 				-123
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "missleft"
+			"fps": 12,
+			"name": "missleft",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-40,
 				-120
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singUPmiss",
-			"loop": false,
-			"name": "missup"
+			"fps": 12,
+			"name": "missup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-42,
 				-126
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singDOWNmiss",
-			"loop": false,
-			"name": "missdown"
+			"fps": 12,
+			"name": "missdown",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-32,
 				-131
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "missright"
+			"fps": 12,
+			"name": "missright",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -129,12 +129,12 @@
 		-120,
 		80
 	],
-	"healthicon": "nina",
+	"healthicon": "lumin",
 	"flip_x": true,
 	"healthbar_colors": [
+		210,
 		0,
-		215,
-		115
+		63
 	],
 	"camera_position": [
 		50,

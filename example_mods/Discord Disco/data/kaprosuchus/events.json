@@ -2,6 +2,16 @@
 	"song": {
 		"events": [
 			[
+				21333.3333333333,
+				[
+					[
+						"Flash",
+						"000000",
+						"10"
+					]
+				]
+			],
+			[
 				38666.6666666667,
 				[
 					[
@@ -191,7 +201,7 @@
 				[
 					[
 						"Image Flash",
-						"bicodiedLMAO",
+						"kapysuchy/bicodiedLMAO",
 						"1.2"
 					]
 				]
